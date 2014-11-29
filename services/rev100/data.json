@@ -1,0 +1,12 @@
+{
+  "name": "Star Noise",
+  "points": 100,
+  "location": "Sun Core", 
+  "authors": [
+    "dvorak42"
+  ], 
+  "endpoints": [
+    ["file", "service"]
+  ], 
+  "type": ["REV", 100]
+}

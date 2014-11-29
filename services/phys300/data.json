@@ -1,0 +1,13 @@
+{
+  "name": "Pinned to the Table", 
+  "points": 200,
+  "location": "Stonehenge", 
+  "authors": [
+    "dvorak42"
+  ], 
+  "endpoints": [
+    ["physical", "lockpick"]
+  ], 
+  "type": ["PHYS", 300],
+  "description": "You had to pick a lock to get at the flag within the locked box."
+}

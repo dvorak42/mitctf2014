@@ -1,0 +1,37 @@
+-*- mode:org; -*-
+
+Solution to Final Code:
+
+|------------------------+----------------------------------+----------|
+| Location               | Flag                             | Service  |
+|------------------------+----------------------------------+----------|
+| Sun Core               | ThereBeStringsInThisBinary       | REV100   |
+| Sun Corona             | ExtraDataRevealsNothing          | REV200   |
+| Orbiting Sun           | SortedDataOrSunshineBeaches      | RECON100 |
+| Mercury                | SmallDiffsUnderLightProvideData  | STEG100  |
+| Venus                  | EvalIsEvilEvenWithSandboxes      | EXPLT200 |
+| Stonehenge             | ReallyFarPinsAreTheMostImportant | PHYS300  |
+| Earth Mantel           | AlwaysRollYourOwnCrypto          | CRYPT200 |
+| Earth Core             | ConstraintsFromOtherCoreIsSolved | MISC100  |
+| South of New Zealand   | TCPTrailsAreBetterThanCookies    | FOR100   |
+| Earth Satellite        | CarefulRotationResultsInWords    | PHYS100  |
+| Light Side of the Moon | OnlyUseFlagOnce                  | CRYPT100 |
+| Dark Side of the Moon  | MapsMayProvideAnswers            | FOR200   |
+| Mars                   | BeginWithTheBeatOfTheSystem      | EXPLT400 |
+| Inner Asteroid Belt    | OnlyTheFirstExploitWorks         | EXPLT100 |
+| Asteroid Belt          | InjectionsAreGreatVaccines       | WEB100   |
+| Outer Asteroid Belt    | SealsSeemUseless                 | PHYS400  |
+| Jupiter                | TimberTamperTemper               | PHYS200  |
+| Saturn                 | HereIsSomethingBetterThanX86     | REV300   |
+| Uranus                 | EnigmaIsQuiteAnEnigmaLikeKryptos | CRYPT300 |
+| Neptune                | FortunatelyThereWasAnExploit     | EXPLT500 |
+| Pluto                  | LetsJustAllUseCarrierPigeons     | WEB200   |
+| Kuiper Belt            | AssemblySeemsSimple              | REV400   |
+| Sedna                  | GoodDataHasNoComments            | FOR300   |
+| Outer Oort Cloud       | 4IsAsRandomAsSeconds             | EXPLT300 |
+| Alpha Centauri         | 2WaysAreBetterThan1              | PHYS500  |
+|------------------------+----------------------------------+----------|
+
+Order by location, and then read down the name.
+
+

@@ -1,0 +1,12 @@
+{
+  "name": "Asteroid Mining", 
+  "points": 100,
+  "location": "Inner Asteroid Belt", 
+  "authors": [
+    "dvorak42"
+  ], 
+  "endpoints": [
+    ["url", "http://REMOTE/\~explt100/cgi-bin/status.sh"]
+  ], 
+  "type": ["EXPLT", 100]
+}

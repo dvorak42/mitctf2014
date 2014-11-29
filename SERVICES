@@ -1,0 +1,32 @@
+-*- mode:org; -*-
+
+|----------------------------+--------+------------+------------------------+-----------------------------------|
+| Service Name               | Points | Service ID | Location               | Description                       |
+|----------------------------+--------+------------+------------------------+-----------------------------------|
+| Eldritch Scientist         |    100 | RECON100   | Orbiting Sun           | Recon a Fake Scientist            |
+| Secretly Constrained       |    100 | MISC100    | Earth Core             | Solve Equations                   |
+| Awesome Images             |    100 | STEG100    | Mercury                | Steg Data in Image of Location    |
+| Space Contacts             |    100 | WEB100     | Asteroid Belt          | SQL Injection of some kind        |
+| Pluto Squares              |    200 | WEB200     | Pluto                  | XSS Attack                        |
+| One Pad To Rule Them All   |    200 | CRYPT100   | Light Side of the Moon | Crack a broken OTP                |
+| Rolling Keys               |    200 | CRYPT200   | Earth Mantel           | Break a broken KDF                |
+| Pretty Global Privacy      |    300 | CRYPT300   | Uranus                 | PGP Broken                        |
+| Asteroid Mining            |    100 | EXPLT100   | Inner Asteroid Belt    | Exploit Shellshock                |
+| Remotely Executable Probes |    200 | EXPLT200   | Venus                  | Break a Python Sandbox            |
+| Distant Communications     |    200 | EXPLT300   | Outer Oort Cloud       | Perform Timing Attack on Random   |
+| Beaten to Mars             |    300 | EXPLT400   | Mars                   | Exploit SSL Vulnerability         |
+| Neptune Over The Sea       |    300 | EXPLT500   | Neptune                | Kernel Exploitation               |
+| Star Noise                 |    100 | REV100     | Sun Core               | Find Hidden Data String in Binary |
+| Space Cinema               |    200 | REV200     | Sun Corona             | Unwrap an unknown Data Structure  |
+| Esoteric Dumps             |    300 | REV300     | Saturn                 | Decode VCC v0.1 Binary            |
+| Ancient Functions          |    300 | REV400     | Kuiper Belt            | IDA-Proof Binary with movement    |
+| Listening In               |    100 | FOR100     | South of New Zealand   | Packet Dump                       |
+| Exposed to Attackers       |    200 | FOR200     | Dark Side of the Moon  | Find the Network Map of a system  |
+| Sedna Caught               |    300 | FOR300     | Sedna                  |                                   |
+| Combo Breaker              |    200 | PHYS100    | Earth Satellite        | Open a Combo Lock                 |
+| Jupiter Tamper             |    200 | PHYS200    | Jupiter                | Remove tamper evident seal        |
+| Pinned to the Table        |    200 | PHYS300    | Stonehenge             | Lockpick a Lock                   |
+| Stuck in Space             |    200 | PHYS400    | Outer Asteroid Belt    | Remove tamper proof seal          |
+| Lost in Centauri           |    200 | PHYS500    | Alpha Centauri         | Find an alternate path            |
+|----------------------------+--------+------------+------------------------+-----------------------------------|
+

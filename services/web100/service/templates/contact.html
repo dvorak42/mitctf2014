@@ -1,0 +1,15 @@
+<html>
+  <head>
+    <title>Contact: {{ name }}</title>
+  </head>
+  <body>
+    <center>
+      <h1>Contact Information for {{ name }}</h1>
+      {% if email %}
+      <h2>Email: {{ email }}</h2>
+      {% else %}
+      <h2>Contact not in Database</h2>      
+      {% endif %}
+    </center>
+  </body>
+</html>

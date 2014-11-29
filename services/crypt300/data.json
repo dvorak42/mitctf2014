@@ -1,0 +1,13 @@
+{
+  "name": "Pretty Global Privacy", 
+  "points": 300,
+  "location": "Uranus", 
+  "authors": [
+    "dvorak42"
+  ], 
+  "endpoints": [
+    ["file", "service.py"],
+    ["ctf2.mit.edu", 4242]
+  ], 
+  "type": ["CRYPT", 300]
+}

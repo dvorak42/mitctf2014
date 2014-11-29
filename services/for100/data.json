@@ -1,0 +1,12 @@
+{
+  "name": "Listening In",
+  "points": 100,
+  "location": "South of New Zealand", 
+  "authors": [
+    "tboning"
+  ], 
+  "endpoints": [
+    ["file", "service.pcap"]
+  ], 
+  "type": ["FOR", 100]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Space Contacts", 
+  "points": 100,
+  "location": "Asteroid Belt", 
+  "authors": [
+    "dvorak42"
+  ], 
+  "endpoints": [
+    ["url", "http://REMOTE:5000/"]
+  ], 
+  "type": ["WEB", 100]
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Rolling Keys", 
+  "points": 200,
+  "location": "Earth Mantle", 
+  "authors": [
+    "dvorak42"
+  ], 
+  "endpoints": [
+    ["file", "service.py"]
+  ], 
+  "type": ["CRYPT", 200]
+}

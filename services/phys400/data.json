@@ -1,0 +1,13 @@
+{
+  "name": "Stuck in Space", 
+  "points": 200,
+  "location": "Outer Asteroid Belt", 
+  "authors": [
+    "dvorak42"
+  ], 
+  "endpoints": [
+    ["physical", "zipties"]
+  ], 
+  "type": ["PHYS", 400], 
+  "description": "You had to take apart a ziptie note without breaking it."
+}

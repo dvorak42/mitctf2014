@@ -1,0 +1,12 @@
+{
+  "name": "Ancient Functions", 
+  "points": 300,
+  "location": "Kuiper Belt", 
+  "authors": [
+    "dvorak42"
+  ], 
+  "endpoints": [
+    ["file", "service"]
+  ], 
+  "type": ["REV", 400]
+}

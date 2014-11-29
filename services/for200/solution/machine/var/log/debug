@@ -1,0 +1,115 @@
+Oct 15 03:59:22 darkside kernel: [    0.000000] DMI: Bochs Bochs, BIOS Bochs 01/01/2007
+Oct 15 03:59:22 darkside kernel: [    0.000000] e820 update range: 0000000000000000 - 0000000000010000 (usable) ==> (reserved)
+Oct 15 03:59:22 darkside kernel: [    0.000000] e820 remove range: 00000000000a0000 - 0000000000100000 (usable)
+Oct 15 03:59:22 darkside kernel: [    0.000000] MTRR default type: write-back
+Oct 15 03:59:22 darkside kernel: [    0.000000] MTRR fixed ranges enabled:
+Oct 15 03:59:22 darkside kernel: [    0.000000]   00000-9FFFF write-back
+Oct 15 03:59:22 darkside kernel: [    0.000000]   A0000-BFFFF uncachable
+Oct 15 03:59:22 darkside kernel: [    0.000000]   C0000-FFFFF write-protect
+Oct 15 03:59:22 darkside kernel: [    0.000000] MTRR variable ranges enabled:
+Oct 15 03:59:22 darkside kernel: [    0.000000]   0 base 00E0000000 mask FFE0000000 uncachable
+Oct 15 03:59:22 darkside kernel: [    0.000000]   1 disabled
+Oct 15 03:59:22 darkside kernel: [    0.000000]   2 disabled
+Oct 15 03:59:22 darkside kernel: [    0.000000]   3 disabled
+Oct 15 03:59:22 darkside kernel: [    0.000000]   4 disabled
+Oct 15 03:59:22 darkside kernel: [    0.000000]   5 disabled
+Oct 15 03:59:22 darkside kernel: [    0.000000]   6 disabled
+Oct 15 03:59:22 darkside kernel: [    0.000000]   7 disabled
+Oct 15 03:59:22 darkside kernel: [    0.000000] initial memory mapped : 0 - 20000000
+Oct 15 03:59:22 darkside kernel: [    0.000000] Base memory trampoline at [ffff880000099000] 99000 size 20480
+Oct 15 03:59:22 darkside kernel: [    0.000000]  0000000000 - 001fe00000 page 2M
+Oct 15 03:59:22 darkside kernel: [    0.000000]  001fe00000 - 001fffe000 page 4k
+Oct 15 03:59:22 darkside kernel: [    0.000000] kernel direct mapping tables up to 1fffe000 @ 1fffb000-1fffe000
+Oct 15 03:59:22 darkside kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Oct 15 03:59:22 darkside kernel: [    0.000000]  [ffffea0000000000-ffffea00007fffff] PMD -> [ffff88001e400000-ffff88001ebfffff] on node 0
+Oct 15 03:59:22 darkside kernel: [    0.000000] On node 0 totalpages: 130956
+Oct 15 03:59:22 darkside kernel: [    0.000000]   DMA zone: 56 pages used for memmap
+Oct 15 03:59:22 darkside kernel: [    0.000000]   DMA zone: 5 pages reserved
+Oct 15 03:59:22 darkside kernel: [    0.000000]   DMA zone: 3921 pages, LIFO batch:0
+Oct 15 03:59:22 darkside kernel: [    0.000000]   DMA32 zone: 1736 pages used for memmap
+Oct 15 03:59:22 darkside kernel: [    0.000000]   DMA32 zone: 125238 pages, LIFO batch:31
+Oct 15 03:59:22 darkside kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Oct 15 03:59:22 darkside kernel: [    0.000000] ACPI: IRQ0 used by override.
+Oct 15 03:59:22 darkside kernel: [    0.000000] ACPI: IRQ2 used by override.
+Oct 15 03:59:22 darkside kernel: [    0.000000] ACPI: IRQ5 used by override.
+Oct 15 03:59:22 darkside kernel: [    0.000000] ACPI: IRQ9 used by override.
+Oct 15 03:59:22 darkside kernel: [    0.000000] ACPI: IRQ10 used by override.
+Oct 15 03:59:22 darkside kernel: [    0.000000] ACPI: IRQ11 used by override.
+Oct 15 03:59:22 darkside kernel: [    0.000000] nr_irqs_gsi: 40
+Oct 15 03:59:22 darkside kernel: [    0.000000] pcpu-alloc: s82944 r8192 d23552 u2097152 alloc=1*2097152
+Oct 15 03:59:22 darkside kernel: [    0.000000] pcpu-alloc: [0] 0 
+Oct 15 03:59:22 darkside kernel: [    0.000000] Calgary: detecting Calgary via BIOS EBDA area
+Oct 15 03:59:22 darkside kernel: [    0.000000] Calgary: Unable to locate Rio Grande table in EBDA - bailing!
+Oct 15 03:59:22 darkside kernel: [    0.000000] hpet clockevent registered
+Oct 15 03:59:22 darkside kernel: [    0.012000] ACPI: EC: Look up EC in DSDT
+Oct 15 03:59:22 darkside kernel: [    0.015117] pci_root PNP0A03:00: host bridge window [io  0x0000-0x0cf7] (ignored)
+Oct 15 03:59:22 darkside kernel: [    0.015119] pci_root PNP0A03:00: host bridge window [io  0x0d00-0xffff] (ignored)
+Oct 15 03:59:22 darkside kernel: [    0.015121] pci_root PNP0A03:00: host bridge window [mem 0x000a0000-0x000bffff] (ignored)
+Oct 15 03:59:22 darkside kernel: [    0.015123] pci_root PNP0A03:00: host bridge window [mem 0xe0000000-0xfebfffff] (ignored)
+Oct 15 03:59:22 darkside kernel: [    0.015157] pci 0000:00:00.0: [8086:1237] type 0 class 0x000600
+Oct 15 03:59:22 darkside kernel: [    0.015374] pci 0000:00:01.0: [8086:7000] type 0 class 0x000601
+Oct 15 03:59:22 darkside kernel: [    0.015690] pci 0000:00:01.1: [8086:7010] type 0 class 0x000101
+Oct 15 03:59:22 darkside kernel: [    0.017127] pci 0000:00:01.1: reg 20: [io  0xc0a0-0xc0af]
+Oct 15 03:59:22 darkside kernel: [    0.017775] pci 0000:00:01.2: [8086:7020] type 0 class 0x000c03
+Oct 15 03:59:22 darkside kernel: [    0.019204] pci 0000:00:01.2: reg 20: [io  0xc040-0xc05f]
+Oct 15 03:59:22 darkside kernel: [    0.019843] pci 0000:00:01.3: [8086:7113] type 0 class 0x000680
+Oct 15 03:59:22 darkside kernel: [    0.020280] pci 0000:00:03.0: [8086:100e] type 0 class 0x000200
+Oct 15 03:59:22 darkside kernel: [    0.020823] pci 0000:00:03.0: reg 10: [mem 0xfeba0000-0xfebbffff]
+Oct 15 03:59:22 darkside kernel: [    0.021345] pci 0000:00:03.0: reg 14: [io  0xc000-0xc03f]
+Oct 15 03:59:22 darkside kernel: [    0.023950] pci 0000:00:03.0: reg 30: [mem 0xfebc0000-0xfebdffff pref]
+Oct 15 03:59:22 darkside kernel: [    0.024068] pci 0000:00:04.0: [8086:2922] type 0 class 0x000106
+Oct 15 03:59:22 darkside kernel: [    0.026725] pci 0000:00:04.0: reg 20: [io  0xc060-0xc07f]
+Oct 15 03:59:22 darkside kernel: [    0.027247] pci 0000:00:04.0: reg 24: [mem 0xfebe0000-0xfebe0fff]
+Oct 15 03:59:22 darkside kernel: [    0.028019] pci 0000:00:05.0: [1af4:1002] type 0 class 0x0000ff
+Oct 15 03:59:22 darkside kernel: [    0.028322] pci 0000:00:05.0: reg 10: [io  0xc080-0xc09f]
+Oct 15 03:59:22 darkside kernel: [    0.030214] ACPI: PCI Interrupt Routing Table [\_SB_.PCI0._PRT]
+Oct 15 03:59:22 darkside kernel: [    0.033035] PCI: pci_cache_line_size set to 64 bytes
+Oct 15 03:59:22 darkside kernel: [    0.033150] reserve RAM buffer: 000000000009ec00 - 000000000009ffff 
+Oct 15 03:59:22 darkside kernel: [    0.033151] reserve RAM buffer: 000000001fffe000 - 000000001fffffff 
+Oct 15 03:59:22 darkside kernel: [    0.041814] pnp 00:00: [bus 00-ff]
+Oct 15 03:59:22 darkside kernel: [    0.041816] pnp 00:00: [io  0x0cf8-0x0cff]
+Oct 15 03:59:22 darkside kernel: [    0.041818] pnp 00:00: [io  0x0000-0x0cf7 window]
+Oct 15 03:59:22 darkside kernel: [    0.041819] pnp 00:00: [io  0x0d00-0xffff window]
+Oct 15 03:59:22 darkside kernel: [    0.041821] pnp 00:00: [mem 0x000a0000-0x000bffff window]
+Oct 15 03:59:22 darkside kernel: [    0.041823] pnp 00:00: [mem 0xe0000000-0xfebfffff window]
+Oct 15 03:59:22 darkside kernel: [    0.041844] pnp 00:00: Plug and Play ACPI device, IDs PNP0a03 (active)
+Oct 15 03:59:22 darkside kernel: [    0.041854] pnp 00:01: [io  0x0070-0x0071]
+Oct 15 03:59:22 darkside kernel: [    0.041871] pnp 00:01: [irq 8]
+Oct 15 03:59:22 darkside kernel: [    0.041873] pnp 00:01: [io  0x0072-0x0077]
+Oct 15 03:59:22 darkside kernel: [    0.041891] pnp 00:01: Plug and Play ACPI device, IDs PNP0b00 (active)
+Oct 15 03:59:22 darkside kernel: [    0.041912] pnp 00:02: [io  0x0060]
+Oct 15 03:59:22 darkside kernel: [    0.041928] pnp 00:02: [io  0x0064]
+Oct 15 03:59:22 darkside kernel: [    0.041942] pnp 00:02: [irq 1]
+Oct 15 03:59:22 darkside kernel: [    0.041962] pnp 00:02: Plug and Play ACPI device, IDs PNP0303 (active)
+Oct 15 03:59:22 darkside kernel: [    0.041994] pnp 00:03: [irq 12]
+Oct 15 03:59:22 darkside kernel: [    0.042012] pnp 00:03: Plug and Play ACPI device, IDs PNP0f13 (active)
+Oct 15 03:59:22 darkside kernel: [    0.042031] pnp 00:04: [io  0x03f2-0x03f5]
+Oct 15 03:59:22 darkside kernel: [    0.042032] pnp 00:04: [io  0x03f7]
+Oct 15 03:59:22 darkside kernel: [    0.042046] pnp 00:04: [irq 6]
+Oct 15 03:59:22 darkside kernel: [    0.042048] pnp 00:04: [dma 2]
+Oct 15 03:59:22 darkside kernel: [    0.042066] pnp 00:04: Plug and Play ACPI device, IDs PNP0700 (active)
+Oct 15 03:59:22 darkside kernel: [    0.042132] pnp 00:05: [io  0x03f8-0x03ff]
+Oct 15 03:59:22 darkside kernel: [    0.042146] pnp 00:05: [irq 4]
+Oct 15 03:59:22 darkside kernel: [    0.042166] pnp 00:05: Plug and Play ACPI device, IDs PNP0501 (active)
+Oct 15 03:59:22 darkside kernel: [    0.042268] pnp 00:06: [mem 0xfed00000-0xfed003ff]
+Oct 15 03:59:22 darkside kernel: [    0.042291] pnp 00:06: Plug and Play ACPI device, IDs PNP0103 (active)
+Oct 15 03:59:22 darkside kernel: [    0.048261] PCI: max bus depth: 0 pci_try_num: 1
+Oct 15 03:59:22 darkside kernel: [    0.048266] pci_bus 0000:00: resource 0 [io  0x0000-0xffff]
+Oct 15 03:59:22 darkside kernel: [    0.048267] pci_bus 0000:00: resource 1 [mem 0x00000000-0xffffffffff]
+Oct 15 03:59:22 darkside kernel: [    0.048815] PCI: CLS 0 bytes, default 64
+Oct 15 03:59:22 darkside kernel: [    0.232305] intel_idle: does not run on family 6 model 2
+Oct 15 03:59:22 darkside kernel: [    0.277481] PM: Hibernation image not present or could not be loaded.
+Oct 15 03:59:22 darkside kernel: [    0.316625] virtio-pci 0000:00:05.0: setting latency timer to 64
+Oct 15 03:59:22 darkside kernel: [    0.317894] e1000 0000:00:03.0: setting latency timer to 64
+Oct 15 03:59:22 darkside kernel: [    0.333884] libata version 3.00 loaded.
+Oct 15 03:59:22 darkside kernel: [    0.641534] uhci_hcd 0000:00:01.2: setting latency timer to 64
+Oct 15 03:59:22 darkside kernel: [    0.642069] ahci 0000:00:04.0: version 3.0
+Oct 15 03:59:22 darkside kernel: [    0.642253] ahci 0000:00:04.0: irq 40 for MSI/MSI-X
+Oct 15 03:59:22 darkside kernel: [    0.643099] ahci 0000:00:04.0: setting latency timer to 64
+Oct 15 03:59:22 darkside kernel: [    0.646920] ata_piix 0000:00:01.1: version 2.13
+Oct 15 03:59:22 darkside kernel: [    0.646989] ata_piix 0000:00:01.1: setting latency timer to 64
+Oct 15 03:59:22 darkside kernel: [    0.970960] sd 0:0:0:0: [sda] Mode Sense: 00 3a 00 00
+Oct 15 03:59:22 darkside kernel: [    1.123277] PM: Hibernation image partition 8:5 present
+Oct 15 03:59:22 darkside kernel: [    1.123278] PM: Looking for hibernation image.
+Oct 15 03:59:22 darkside kernel: [    1.123479] PM: Image not found (code -22)
+Oct 15 03:59:22 darkside kernel: [    1.123481] PM: Hibernation image not present or could not be loaded.

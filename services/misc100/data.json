@@ -1,0 +1,12 @@
+{
+  "name": "Secretly Constrained", 
+  "points": 100,
+  "location": "Earth Core", 
+  "authors": [
+    "dvorak42"
+  ], 
+  "endpoints": [
+    ["file", "service.dat"]
+  ], 
+  "type": ["MISC", 100]
+}

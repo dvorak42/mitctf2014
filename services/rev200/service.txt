@@ -1,0 +1,12 @@
+Specifications:
+
+|--------+-------+---------------------------------------------------+-------|
+| Name   | Bytes | Description                                       | Value |
+|--------+-------+---------------------------------------------------+-------|
+| Magic  |     4 | Magic Value                                       | XMNG  |
+| Width  |     2 | Width in Characters                               |       |
+| Height |     2 | Height in Characters                              |       |
+| Speed  |     4 | Frames per Minute                                 |       |
+| Frames |     4 | Number of Frames                                  |       |
+| Frame* |   W*H | Frames encoded as a diff from the previous frame. |       |
+|--------+-------+---------------------------------------------------+-------|

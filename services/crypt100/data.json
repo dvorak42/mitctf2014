@@ -1,0 +1,12 @@
+{
+  "name": "One Pad To Rule Them All",
+  "points": 200,
+  "location": "Light Side of the Moon", 
+  "authors": [
+    "dvorak42"
+  ], 
+  "endpoints": [
+    ["file", "service.py"]
+  ], 
+  "type": ["CRYPT", 100]
+}

@@ -1,0 +1,47 @@
+graph name {
+    fontsize=24;
+    label="Flagged Network";
+    labelloc="t";
+    Lt [label="Host: t\nPwned Node", shape=circle];
+    Le [label="Host: e\nRouter", shape=circle];
+    Ls [label="Host: s\nSwitch", shape=circle];
+    Lr [label="Host: r\nPrinter", shape=circle];
+    La [label="Host: a\nFirewall", shape=circle];
+    Lc [label="Host: c\nIR Node", shape=circle];
+    L2 [label="Host: 2014{\nAstronaut Tablet", shape=circle];
+    LM [label="Host: M\nAirlock Controls", shape=circle];
+    Lp [label="Host: p\nLab Computer", shape=circle];
+    Ly [label="Host: yP\nLighting Systems", shape=circle];
+    Lo [label="Host: ovid\nTV", shape=circle];
+    LA [label="Host: An\nDark Side\nResearch Computer", shape=circle];
+    Lw [label="Host: w\nDoS Protection", shape=circle];
+    LRC [label="Host: }\nDark Moon\nData Vault", shape=circle];
+
+    Lt -- Le;
+    Le -- Ls;
+    Ls -- Ls;
+    Ls -- Le;
+    Le -- Lr;
+    Lr -- La;
+    La -- Lc;
+    Lc -- Lt;
+    Lt -- L2;
+    L2 -- LM;
+    LM -- La;
+    La -- Lp;
+    Lp -- Ls;
+    Ls -- LM;
+    LM -- La;
+    La -- Ly;
+    Ly -- Lr;
+    Lr -- Lo;
+    Lo -- Le;
+    Le -- LA;
+    LA -- Ls;
+    Ls -- Lw;
+    Lw -- Le;
+    Le -- Lr;
+    Lr -- Ls;
+    Ls -- LRC;
+    LRC -- Lt;
+}

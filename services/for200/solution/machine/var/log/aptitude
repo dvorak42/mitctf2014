@@ -1,0 +1,27 @@
+Aptitude 0.6.8.2: log report
+Wed, Oct 15 2014 04:09:48 -0400
+
+IMPORTANT: this log only lists intended actions; actions which fail due to
+dpkg problems may not be completed.
+
+Will install 15 packages, and remove 0 packages.
+465 kB of disk space will be freed
+===============================================================================
+[UPGRADE] acpi-support-base:amd64 0.140-5 -> 0.140-5+deb7u3
+[UPGRADE] apt:amd64 0.9.7.9+deb7u2 -> 0.9.7.9+deb7u6
+[UPGRADE] apt-utils:amd64 0.9.7.9+deb7u2 -> 0.9.7.9+deb7u6
+[UPGRADE] bash:amd64 4.2+dfsg-0.1 -> 4.2+dfsg-0.1+deb7u3
+[UPGRADE] gnupg:amd64 1.4.12-7+deb7u4 -> 1.4.12-7+deb7u6
+[UPGRADE] gpgv:amd64 1.4.12-7+deb7u4 -> 1.4.12-7+deb7u6
+[UPGRADE] libapt-inst1.5:amd64 0.9.7.9+deb7u2 -> 0.9.7.9+deb7u6
+[UPGRADE] libapt-pkg4.12:amd64 0.9.7.9+deb7u2 -> 0.9.7.9+deb7u6
+[UPGRADE] libc-bin:amd64 2.13-38+deb7u2 -> 2.13-38+deb7u4
+[UPGRADE] libc6:amd64 2.13-38+deb7u2 -> 2.13-38+deb7u4
+[UPGRADE] libssl1.0.0:amd64 1.0.1e-2+deb7u11 -> 1.0.1e-2+deb7u12
+[UPGRADE] linux-image-3.2.0-4-amd64:amd64 3.2.57-3 -> 3.2.60-1+deb7u3
+[UPGRADE] locales:amd64 2.13-38+deb7u2 -> 2.13-38+deb7u4
+[UPGRADE] multiarch-support:amd64 2.13-38+deb7u2 -> 2.13-38+deb7u4
+[UPGRADE] rsyslog:amd64 5.8.11-3 -> 5.8.11-3+deb7u2
+===============================================================================
+
+Log complete.

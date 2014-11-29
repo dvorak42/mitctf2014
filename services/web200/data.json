@@ -1,0 +1,12 @@
+{
+  "name": "Pluto Squares", 
+  "points": 200,
+  "location": "Pluto", 
+  "authors": [
+    "dvorak42"
+  ], 
+  "endpoints": [
+    ["url", "http://REMOTE/"]
+  ], 
+  "type": ["WEB", 200]
+}

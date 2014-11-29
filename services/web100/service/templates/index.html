@@ -1,0 +1,22 @@
+<html>
+  <head>
+    <title>Contact Database</title>
+  </head>
+  <body>
+    <center>
+      <h1>Contact Database for Asteroid Mining Outpost</h1>
+      Please enter the name of the contact you'd like to look up:<br>
+      <br>
+      <form method="POST">
+	<input type="text" name="name"><input type="submit" value="Search">
+      </form>
+
+      <table>
+	<tr><th>Known Contacts</th></tr>
+	{% for c in contacts %}
+	<tr><td><center>{{ c }}</center></td></tr>
+	{% endfor %}
+      </table>
+    </center>
+  </body>
+</html>

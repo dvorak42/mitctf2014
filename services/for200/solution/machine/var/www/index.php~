@@ -1,0 +1,6 @@
+<?php
+
+print "Date: ";
+system('date ' . $_GET['format']);
+
+?>

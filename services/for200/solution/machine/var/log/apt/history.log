@@ -1,0 +1,110 @@
+
+Start-Date: 2014-10-15  07:57:31
+Commandline: apt-get -o APT::Status-Fd=4 -o APT::Keep-Fds::=5 -o APT::Keep-Fds::=6 -q -y --no-remove install locales
+Install: locales:amd64 (2.13-38+deb7u2)
+End-Date: 2014-10-15  07:57:32
+
+Start-Date: 2014-10-15  03:57:34
+Commandline: apt-get -o APT::Status-Fd=4 -o APT::Keep-Fds::=5 -o APT::Keep-Fds::=6 -q -y --no-remove install busybox
+Install: busybox:amd64 (1.20.0-7)
+End-Date: 2014-10-15  03:57:34
+
+Start-Date: 2014-10-15  03:57:35
+Commandline: apt-get -o APT::Status-Fd=4 -o APT::Keep-Fds::=5 -o APT::Keep-Fds::=6 -q -y --no-remove install initramfs-tools
+Install: libklibc:amd64 (2.0.1-3.1, automatic), klibc-utils:amd64 (2.0.1-3.1, automatic), initramfs-tools:amd64 (0.109.1)
+End-Date: 2014-10-15  03:57:35
+
+Start-Date: 2014-10-15  03:57:37
+Commandline: apt-get -o APT::Status-Fd=4 -o APT::Keep-Fds::=5 -o APT::Keep-Fds::=6 -q -y --no-remove install linux-image-amd64
+Install: libuuid-perl:amd64 (0.02-5, automatic), linux-image-3.2.0-4-amd64:amd64 (3.2.57-3, automatic), linux-base:amd64 (3.5, automatic), linux-image-amd64:amd64 (3.2+46)
+End-Date: 2014-10-15  03:57:44
+
+Start-Date: 2014-10-15  03:57:45
+Commandline: apt-get -o APT::Status-Fd=4 -o APT::Keep-Fds::=5 -o APT::Keep-Fds::=6 -q -y --no-remove install pciutils
+Install: libpci3:amd64 (3.1.9-6, automatic), pciutils:amd64 (3.1.9-6)
+End-Date: 2014-10-15  03:57:45
+
+Start-Date: 2014-10-15  03:57:46
+Commandline: apt-get -o APT::Status-Fd=4 -o APT::Keep-Fds::=5 -o APT::Keep-Fds::=6 -q -y --no-remove install usbutils
+Install: usbutils:amd64 (005-3), libusb-1.0-0:amd64 (1.0.11-1, automatic)
+End-Date: 2014-10-15  03:57:46
+
+Start-Date: 2014-10-15  03:57:47
+Commandline: apt-get -o APT::Status-Fd=4 -o APT::Keep-Fds::=5 -o APT::Keep-Fds::=6 -q -y --no-remove install acpi
+Install: acpi:amd64 (1.6-1)
+End-Date: 2014-10-15  03:57:47
+
+Start-Date: 2014-10-15  03:57:48
+Commandline: apt-get -o APT::Status-Fd=4 -o APT::Keep-Fds::=5 -o APT::Keep-Fds::=6 -q -y --no-remove install acpid
+Install: acpid:amd64 (2.0.16-1+deb7u1), module-init-tools:amd64 (9-3, automatic)
+End-Date: 2014-10-15  03:57:48
+
+Start-Date: 2014-10-15  03:57:49
+Commandline: apt-get -o APT::Status-Fd=4 -o APT::Keep-Fds::=5 -o APT::Keep-Fds::=6 -q -y --no-remove install acpi-support-base
+Install: acpi-support-base:amd64 (0.140-5)
+End-Date: 2014-10-15  03:57:49
+
+Start-Date: 2014-10-15  03:57:51
+Commandline: apt-get -o APT::Status-Fd=4 -o APT::Keep-Fds::=5 -o APT::Keep-Fds::=6 -q -y --no-remove install keyboard-configuration
+Install: keyboard-configuration:amd64 (1.88)
+End-Date: 2014-10-15  03:57:52
+
+Start-Date: 2014-10-15  03:57:53
+Commandline: apt-get -o APT::Status-Fd=4 -o APT::Keep-Fds::=5 -o APT::Keep-Fds::=6 -q -y --no-remove install console-setup
+Install: console-setup:amd64 (1.88), console-setup-linux:amd64 (1.88, automatic), xkb-data:amd64 (2.5.1-3, automatic), kbd:amd64 (1.15.3-9, automatic)
+End-Date: 2014-10-15  03:58:25
+
+Start-Date: 2014-10-15  04:09:48
+Upgrade: libc-bin:amd64 (2.13-38+deb7u2, 2.13-38+deb7u4), acpi-support-base:amd64 (0.140-5, 0.140-5+deb7u3), bash:amd64 (4.2+dfsg-0.1, 4.2+dfsg-0.1+deb7u3), libapt-inst1.5:amd64 (0.9.7.9+deb7u2, 0.9.7.9+deb7u6), linux-image-3.2.0-4-amd64:amd64 (3.2.57-3, 3.2.60-1+deb7u3), apt-utils:amd64 (0.9.7.9+deb7u2, 0.9.7.9+deb7u6), apt:amd64 (0.9.7.9+deb7u2, 0.9.7.9+deb7u6), locales:amd64 (2.13-38+deb7u2, 2.13-38+deb7u4), multiarch-support:amd64 (2.13-38+deb7u2, 2.13-38+deb7u4), libapt-pkg4.12:amd64 (0.9.7.9+deb7u2, 0.9.7.9+deb7u6), gpgv:amd64 (1.4.12-7+deb7u4, 1.4.12-7+deb7u6), rsyslog:amd64 (5.8.11-3, 5.8.11-3+deb7u2), libc6:amd64 (2.13-38+deb7u2, 2.13-38+deb7u4), libssl1.0.0:amd64 (1.0.1e-2+deb7u11, 1.0.1e-2+deb7u12), gnupg:amd64 (1.4.12-7+deb7u4, 1.4.12-7+deb7u6)
+End-Date: 2014-10-15  04:10:02
+
+Start-Date: 2014-10-15  04:10:04
+Commandline: apt-get -o APT::Status-Fd=4 -o APT::Keep-Fds::=5 -o APT::Keep-Fds::=6 -q -y --no-remove install laptop-detect
+Install: laptop-detect:amd64 (0.13.7)
+End-Date: 2014-10-15  04:10:04
+
+Start-Date: 2014-10-15  04:10:05
+Commandline: apt-get -o APT::Status-Fd=4 -o APT::Keep-Fds::=5 -o APT::Keep-Fds::=6 -q -y --no-remove install discover
+Install: discover-data:amd64 (2.2010.10.18, automatic), discover:amd64 (2.1.2-5.2), libexpat1:amd64 (2.1.0-1+deb7u1, automatic), libdiscover2:amd64 (2.1.2-5.2, automatic)
+End-Date: 2014-10-15  04:10:06
+
+Start-Date: 2014-10-15  04:10:07
+Commandline: apt-get -o APT::Status-Fd=4 -o APT::Keep-Fds::=5 -o APT::Keep-Fds::=6 -q -y --no-remove -o APT::Install-Recommends=false install installation-report
+Install: installation-report:amd64 (2.49)
+End-Date: 2014-10-15  04:10:07
+
+Start-Date: 2014-10-15  04:10:12
+Commandline: apt-get -o APT::Status-Fd=4 -o APT::Keep-Fds::=5 -o APT::Keep-Fds::=6 -q -y --no-remove -o APT::Install-Recommends=false install popularity-contest
+Install: popularity-contest:amd64 (1.56)
+End-Date: 2014-10-15  04:10:12
+
+Start-Date: 2014-10-15  04:14:22
+Commandline: apt-get -o APT::Status-Fd=4 -o APT::Keep-Fds::=5 -o APT::Keep-Fds::=6 -q -y -o APT::Install-Recommends=true -o APT::Get::AutomaticRemove=true install task-database-server task-english task-ssh-server whois python2.6-minimal mlocate m4 mime-support file exim4-base w3m libswitch-perl less dnsutils bsd-mailx apt-listchanges rpcbind doc-debian procmail dc perl-modules python-support bind9-host liblockfile-bin db5.1-util mutt patch nfs-common exim4-config reportbug texinfo python2.7 time exim4 python-minimal debian-faq krb5-locales ucf libclass-isa-perl ftp lsof wamerican bash-completion gettext-base at bc python-reportbug python openssh-client perl exim4-daemon-light ncurses-term bzip2 telnet python-apt task-web-server
+Install: dmsetup:amd64 (1.02.74-8, automatic), libedit2:amd64 (2.11-20080614-5, automatic), libkrb5-3:amd64 (1.10.1+dfsg-5+deb7u2, automatic), libk5crypto3:amd64 (1.10.1+dfsg-5+deb7u2, automatic), openssh-server:amd64 (6.0p1-4+deb7u2, automatic), ispell:amd64 (3.3.02-6, automatic), ibritish:amd64 (3.3.02-6, automatic), wamerican:amd64 (7.1-1), bzip2:amd64 (1.0.6-4), libtokyocabinet9:amd64 (1.4.47-2, automatic), python-debian:amd64 (0.1.21, automatic), mlocate:amd64 (0.23.1-1), postgresql-9.1:amd64 (9.1.13-0wheezy1, automatic), libpth20:amd64 (2.0.7-16, automatic), libldap-2.4-2:amd64 (2.4.31-1+nmu2, automatic), bind9-host:amd64 (9.8.4.dfsg.P1-6+nmu2+deb7u2), libwrap0:amd64 (7.6.q-24, automatic), python-minimal:amd64 (2.7.3-4+deb7u1), telnet:amd64 (0.17-36), python-reportbug:amd64 (6.4.4+deb7u1), lsof:amd64 (4.86+dfsg-1), libjpeg8:amd64 (8d-1+deb7u1, automatic), liblockfile-bin:amd64 (1.09-5), iso-codes:amd64 (3.41-1, automatic), libx11-data:amd64 (1.5.0-1+deb7u1, automatic), dnsutils:amd64 (9.8.4.dfsg.P1-6+nmu2+deb7u2), perl:amd64 (5.14.2-21+deb7u1), apache2-mpm-worker:amd64 (2.2.22-13+deb7u3, automatic), libcap2:amd64 (2.22-1.2, automatic), mutt:amd64 (1.5.21-6.2+deb7u2), libdevmapper1.02.1:amd64 (1.02.74-8, automatic), exim4-daemon-light:amd64 (4.80-7), python-debianbts:amd64 (1.11, automatic), reportbug:amd64 (6.4.4+deb7u1), bc:amd64 (1.06.95-2+b1), m4:amd64 (1.4.16-3), doc-debian:amd64 (6.1), dc:amd64 (1.06.95-2+b1), at:amd64 (3.1.13-2), libdns88:amd64 (9.8.4.dfsg.P1-6+nmu2+deb7u2, automatic), xauth:amd64 (1.0.7-1, automatic), libapr1:amd64 (1.4.6-3+deb7u1, automatic), libxslt1.1:amd64 (1.1.26-14.1, automatic), apt-listchanges:amd64 (2.85.11), libpcre3:amd64 (8.30-5, automatic), python-apt:amd64 (0.8.8.2), gettext-base:amd64 (0.18.1.1-9), whois:amd64 (5.1.1~deb7u1), perl-modules:amd64 (5.14.2-21+deb7u1), python-apt-common:amd64 (0.8.8.2, automatic), psmisc:amd64 (22.19-1+deb7u1, automatic), libaprutil1-ldap:amd64 (1.4.1-3, automatic), xml-core:amd64 (0.13+nmu2, automatic), libbsd0:amd64 (0.4.2-1, automatic), libxmuu1:amd64 (1.1.1-1, automatic), python2.6:amd64 (2.6.8-1.1, automatic), python2.7:amd64 (2.7.3-6+deb7u2), libfreetype6:amd64 (2.4.9-1.1, automatic), task-ssh-server:amd64 (3.14.1), libisccc80:amd64 (9.8.4.dfsg.P1-6+nmu2+deb7u2, automatic), apache2-utils:amd64 (2.2.22-13+deb7u3, automatic), postgresql-contrib-9.1:amd64 (9.1.13-0wheezy1, automatic), tcpd:amd64 (7.6.q-24, automatic), apache2:amd64 (2.2.22-13+deb7u3, automatic), python2.6-minimal:amd64 (2.6.8-1.1), procmail:amd64 (3.22-20+deb7u1), libxcb1:amd64 (1.8.1-2+deb7u1, automatic), python-soappy:amd64 (0.12.0-4, automatic), apache2.2-common:amd64 (2.2.22-13+deb7u3, automatic), time:amd64 (1.7-24), libxau6:amd64 (1.0.7-1, automatic), python-fpconst:amd64 (0.7.2-5, automatic), liblwres80:amd64 (9.8.4.dfsg.P1-6+nmu2+deb7u2, automatic), libclass-isa-perl:amd64 (0.36-3), libkrb5support0:amd64 (1.10.1+dfsg-5+deb7u2, automatic), libtirpc1:amd64 (0.2.2-5, automatic), python:amd64 (2.7.3-4+deb7u1), openssh-client:amd64 (6.0p1-4+deb7u2), ftp:amd64 (0.17-27), libaprutil1-dbd-sqlite3:amd64 (1.4.1-3, automatic), apache2.2-bin:amd64 (2.2.22-13+deb7u3, automatic), libxdmcp6:amd64 (1.1.1-1, automatic), w3m:amd64 (0.5.3-8), ssl-cert:amd64 (1.0.32, automatic), postgresql-common:amd64 (134wheezy4, automatic), liblockfile1:amd64 (1.09-5, automatic), libxml2:amd64 (2.8.0+dfsg1-7+wheezy1, automatic), libbind9-80:amd64 (9.8.4.dfsg.P1-6+nmu2+deb7u2, automatic), libkeyutils1:amd64 (1.5.5-3, automatic), python-chardet:amd64 (2.0.1-2, automatic), libgpm2:amd64 (1.20.4-6, automatic), debian-faq:amd64 (5.0.1), postgresql:amd64 (9.1+134wheezy4, automatic), file:amd64 (5.11-2+deb7u5), postgresql-client-9.1:amd64 (9.1.13-0wheezy1, automatic), geoip-database:amd64 (20130213-1, automatic), sgml-base:amd64 (1.26+nmu4, automatic), ienglish-common:amd64 (3.3.02-6, automatic), ucf:amd64 (3.0025+nmu3), libswitch-perl:amd64 (2.16-2), openssh-blacklist-extra:amd64 (0.4.1+nmu1, automatic), exim4-config:amd64 (4.80-7), libnfsidmap2:amd64 (0.25-4, automatic), mime-support:amd64 (3.52-1), libpng12-0:amd64 (1.2.49-1, automatic), libgeoip1:amd64 (1.4.8+dfsg-3, automatic), rpcbind:amd64 (0.2.0-8), bash-completion:amd64 (2.0-1), libisccfg82:amd64 (9.8.4.dfsg.P1-6+nmu2+deb7u2, automatic), postgresql-doc:amd64 (9.1+134wheezy4, automatic), task-english:amd64 (3.14.1), apache2-doc:amd64 (2.2.22-13+deb7u3, automatic), krb5-locales:amd64 (1.10.1+dfsg-5+deb7u2), python2.7-minimal:amd64 (2.7.3-6+deb7u2, automatic), postgresql-client-common:amd64 (134wheezy4, automatic), libx11-6:amd64 (1.5.0-1+deb7u1, automatic), libsasl2-2:amd64 (2.1.25.dfsg1-6+deb7u1, automatic), libpq5:amd64 (9.1.13-0wheezy1, automatic), bsd-mailx:amd64 (8.1.2-0.20111106cvs-1), analog:amd64 (6.0-19.1, automatic), python-support:amd64 (1.0.15), libgpgme11:amd64 (1.2.0-1.4+deb7u1, automatic), exim4:amd64 (4.80-7), postgresql-contrib:amd64 (9.1+134wheezy4, automatic), libasprintf0c2:amd64 (0.18.1.1-9, automatic), libevent-2.0-5:amd64 (2.0.19-stable-3, automatic), openssl:amd64 (1.0.1e-2+deb7u12, automatic), libgc1c2:amd64 (7.1-9.1, automatic), exim4-base:amd64 (4.80-7), dictionaries-common:amd64 (1.12.11, automatic), patch:amd64 (2.6.1-3), libgssapi-krb5-2:amd64 (1.10.1+dfsg-5+deb7u2, automatic), libisc84:amd64 (9.8.4.dfsg.P1-6+nmu2+deb7u2, automatic), libgssglue1:amd64 (0.4-2, automatic), iamerican:amd64 (3.3.02-6, automatic), postgresql-doc-9.1:amd64 (9.1.13-0wheezy1, automatic), libxext6:amd64 (1.3.1-2+deb7u1, automatic), ncurses-term:amd64 (5.9-10), libsasl2-modules:amd64 (2.1.25.dfsg1-6+deb7u1, automatic), util-linux-locales:amd64 (2.20.1-5.3, automatic), libaprutil1:amd64 (1.4.1-3, automatic), libossp-uuid16:amd64 (1.6.2-1.3, automatic), nfs-common:amd64 (1.2.6-4), db5.1-util:amd64 (5.1.29-5), ca-certificates:amd64 (20130119, automatic), lsb-release:amd64 (4.1+Debian8+deb7u1, automatic), task-web-server:amd64 (3.14.1), task-database-server:amd64 (3.14.1), openssh-blacklist:amd64 (0.4.1+nmu1, automatic), less:amd64 (444-4), libmagic1:amd64 (5.11-2+deb7u5, automatic), texinfo:amd64 (4.13a.dfsg.1-10), libgd2-noxpm:amd64 (2.0.36~rc1~dfsg-6.1, automatic)
+End-Date: 2014-10-15  04:15:00
+
+Start-Date: 2014-10-15  04:15:02
+Commandline: apt-get -o APT::Status-Fd=4 -o APT::Keep-Fds::=5 -o APT::Keep-Fds::=6 -q -y --no-remove install grub-common
+Install: libfuse2:amd64 (2.9.0-2+deb7u1, automatic), os-prober:amd64 (1.58, automatic), grub-common:amd64 (1.99-27+deb7u2)
+End-Date: 2014-10-15  04:15:03
+
+Start-Date: 2014-10-15  04:15:05
+Commandline: apt-get -o APT::Status-Fd=4 -o APT::Keep-Fds::=5 -o APT::Keep-Fds::=6 -q -y --no-remove install grub-pc
+Install: grub-pc:amd64 (1.99-27+deb7u2), grub-pc-bin:amd64 (1.99-27+deb7u2, automatic), grub2-common:amd64 (1.99-27+deb7u2, automatic)
+End-Date: 2014-10-15  04:15:06
+
+Start-Date: 2014-10-15  13:23:30
+Commandline: apt-get install emacs zsh
+Install: libgconf-2-4:amd64 (3.2.5-1+build1, automatic), libatk1.0-0:amd64 (2.4.0-2, automatic), gconf2-common:amd64 (3.2.5-1+build1, automatic), libgtk2.0-common:amd64 (2.24.10-2, automatic), libxfixes3:amd64 (5.0-4+deb7u1, automatic), emacs:amd64 (45.0), hicolor-icon-theme:amd64 (0.12-1, automatic), libxcomposite1:amd64 (0.4.3-2, automatic), emacs23-bin-common:amd64 (23.4+1-4, automatic), libglib2.0-data:amd64 (2.33.12+really2.32.4-5, automatic), libotf0:amd64 (0.9.12-2, automatic), libatk1.0-data:amd64 (2.4.0-2, automatic), ttf-dejavu-core:amd64 (2.33-3, automatic), libdbus-1-3:amd64 (1.6.8-1+deb7u4, automatic), libdbus-glib-1-2:amd64 (0.100.2-1, automatic), libcairo2:amd64 (1.12.2-3, automatic), libjbig0:amd64 (2.0-2+deb7u1), libthai-data:amd64 (0.1.18-2, automatic), shared-mime-info:amd64 (1.0-1+b1, automatic), libglib2.0-0:amd64 (2.33.12+really2.32.4-5, automatic), libfribidi0:amd64 (0.19.2-3, automatic), m17n-db:amd64 (1.6.3-2, automatic), librsvg2-common:amd64 (2.36.1-2, automatic), libdatrie1:amd64 (0.2.5-3, automatic), fontconfig:amd64 (2.9.0-7.1, automatic), libavahi-common-data:amd64 (0.6.31-2, automatic), libffi5:amd64 (3.0.10-3, automatic), libgdk-pixbuf2.0-0:amd64 (2.26.1-1, automatic), dbus:amd64 (1.6.8-1+deb7u4, automatic), libpixman-1-0:amd64 (0.26.0-4+deb7u1, automatic), libcups2:amd64 (1.5.3-5+deb7u4, automatic), libxinerama1:amd64 (1.1.2-1+deb7u1, automatic), libgif4:amd64 (4.1.6-10, automatic), libxft2:amd64 (2.3.1-1, automatic), fontconfig-config:amd64 (2.9.0-7.1, automatic), libcroco3:amd64 (0.6.6-2, automatic), libice6:amd64 (1.0.8-2, automatic), libthai0:amd64 (0.1.18-2, automatic), libasound2:amd64 (1.0.25-4, automatic), libxpm4:amd64 (3.5.10-1, automatic), libxrender1:amd64 (0.9.7-1+deb7u1, automatic), libtiff4:amd64 (3.9.6-11, automatic), libjasper1:amd64 (1.900.1-13, automatic), emacsen-common:amd64 (2.0.5, automatic), libm17n-0:amd64 (1.6.3-2, automatic), m17n-contrib:amd64 (1.1.13-2, automatic), emacs23:amd64 (23.4+1-4, automatic), zsh:amd64 (4.3.17-1), libsystemd-login0:amd64 (44-11+deb7u4, automatic), librsvg2-2:amd64 (2.36.1-2, automatic), libavahi-client3:amd64 (0.6.31-2, automatic), x11-common:amd64 (7.7+3~deb7u1, automatic), libfontconfig1:amd64 (2.9.0-7.1, automatic), gconf-service:amd64 (3.2.5-1+build1, automatic), libpango1.0-0:amd64 (1.30.0-1, automatic), libsm6:amd64 (1.2.1-2, automatic), libxdamage1:amd64 (1.1.3-2, automatic), libxcb-render0:amd64 (1.8.1-2+deb7u1, automatic), libgtk2.0-bin:amd64 (2.24.10-2, automatic), libxi6:amd64 (1.6.1-1+deb7u1, automatic), emacs23-common:amd64 (23.4+1-4, automatic), libxcursor1:amd64 (1.1.13-1+deb7u1, automatic), libxcb-shm0:amd64 (1.8.1-2+deb7u1, automatic), libxt6:amd64 (1.1.3-1+deb7u1, automatic), libavahi-common3:amd64 (0.6.31-2, automatic), libxrandr2:amd64 (1.3.2-2+deb7u1, automatic), libgtk2.0-0:amd64 (2.24.10-2, automatic), libgdk-pixbuf2.0-common:amd64 (2.26.1-1, automatic)
+End-Date: 2014-10-15  13:23:46
+
+Start-Date: 2014-10-15  13:26:50
+Commandline: apt-get install libapache2-mod-php5
+Install: libapache2-mod-php5:amd64 (5.4.4-14+deb7u14), apache2-mpm-prefork:amd64 (2.2.22-13+deb7u3, automatic), libqdbm14:amd64 (1.8.78-2, automatic), libonig2:amd64 (5.9.1-1, automatic), php5-cli:amd64 (5.4.4-14+deb7u14, automatic), php5-common:amd64 (5.4.4-14+deb7u14, automatic)
+Remove: apache2-mpm-worker:amd64 (2.2.22-13+deb7u3)
+End-Date: 2014-10-15  13:26:59
+
+Start-Date: 2014-10-15  13:51:22
+Commandline: apt-get install curl
+Install: libcurl3:amd64 (7.26.0-1+wheezy10, automatic), libssh2-1:amd64 (1.4.2-1.1, automatic), curl:amd64 (7.26.0-1+wheezy10), librtmp0:amd64 (2.4+20111222.git4e06e21-1, automatic)
+End-Date: 2014-10-15  13:51:24

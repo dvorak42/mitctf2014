@@ -1,0 +1,435 @@
+Oct 15 03:59:22 darkside kernel: imklog 5.8.11, log source = /proc/kmsg started.
+Oct 15 03:59:22 darkside kernel: [    0.000000] Initializing cgroup subsys cpuset
+Oct 15 03:59:22 darkside kernel: [    0.000000] Initializing cgroup subsys cpu
+Oct 15 03:59:22 darkside kernel: [    0.000000] Linux version 3.2.0-4-amd64 (debian-kernel@lists.debian.org) (gcc version 4.6.3 (Debian 4.6.3-14) ) #1 SMP Debian 3.2.60-1+deb7u3
+Oct 15 03:59:22 darkside kernel: [    0.000000] Command line: BOOT_IMAGE=/boot/vmlinuz-3.2.0-4-amd64 root=UUID=53db0424-d9fe-45e5-9e4c-96563154814f ro quiet
+Oct 15 03:59:22 darkside kernel: [    0.000000] BIOS-provided physical RAM map:
+Oct 15 03:59:22 darkside kernel: [    0.000000]  BIOS-e820: 0000000000000000 - 000000000009ec00 (usable)
+Oct 15 03:59:22 darkside kernel: [    0.000000]  BIOS-e820: 000000000009ec00 - 00000000000a0000 (reserved)
+Oct 15 03:59:22 darkside kernel: [    0.000000]  BIOS-e820: 00000000000f0000 - 0000000000100000 (reserved)
+Oct 15 03:59:22 darkside kernel: [    0.000000]  BIOS-e820: 0000000000100000 - 000000001fffe000 (usable)
+Oct 15 03:59:22 darkside kernel: [    0.000000]  BIOS-e820: 000000001fffe000 - 0000000020000000 (reserved)
+Oct 15 03:59:22 darkside kernel: [    0.000000]  BIOS-e820: 00000000feffc000 - 00000000ff000000 (reserved)
+Oct 15 03:59:22 darkside kernel: [    0.000000]  BIOS-e820: 00000000fffc0000 - 0000000100000000 (reserved)
+Oct 15 03:59:22 darkside kernel: [    0.000000] NX (Execute Disable) protection: active
+Oct 15 03:59:22 darkside kernel: [    0.000000] SMBIOS 2.4 present.
+Oct 15 03:59:22 darkside kernel: [    0.000000] DMI: Bochs Bochs, BIOS Bochs 01/01/2007
+Oct 15 03:59:22 darkside kernel: [    0.000000] e820 update range: 0000000000000000 - 0000000000010000 (usable) ==> (reserved)
+Oct 15 03:59:22 darkside kernel: [    0.000000] e820 remove range: 00000000000a0000 - 0000000000100000 (usable)
+Oct 15 03:59:22 darkside kernel: [    0.000000] No AGP bridge found
+Oct 15 03:59:22 darkside kernel: [    0.000000] last_pfn = 0x1fffe max_arch_pfn = 0x400000000
+Oct 15 03:59:22 darkside kernel: [    0.000000] MTRR default type: write-back
+Oct 15 03:59:22 darkside kernel: [    0.000000] MTRR fixed ranges enabled:
+Oct 15 03:59:22 darkside kernel: [    0.000000]   00000-9FFFF write-back
+Oct 15 03:59:22 darkside kernel: [    0.000000]   A0000-BFFFF uncachable
+Oct 15 03:59:22 darkside kernel: [    0.000000]   C0000-FFFFF write-protect
+Oct 15 03:59:22 darkside kernel: [    0.000000] MTRR variable ranges enabled:
+Oct 15 03:59:22 darkside kernel: [    0.000000]   0 base 00E0000000 mask FFE0000000 uncachable
+Oct 15 03:59:22 darkside kernel: [    0.000000]   1 disabled
+Oct 15 03:59:22 darkside kernel: [    0.000000]   2 disabled
+Oct 15 03:59:22 darkside kernel: [    0.000000]   3 disabled
+Oct 15 03:59:22 darkside kernel: [    0.000000]   4 disabled
+Oct 15 03:59:22 darkside kernel: [    0.000000]   5 disabled
+Oct 15 03:59:22 darkside kernel: [    0.000000]   6 disabled
+Oct 15 03:59:22 darkside kernel: [    0.000000]   7 disabled
+Oct 15 03:59:22 darkside kernel: [    0.000000] PAT not supported by CPU.
+Oct 15 03:59:22 darkside kernel: [    0.000000] found SMP MP-table at [ffff8800000fdaf0] fdaf0
+Oct 15 03:59:22 darkside kernel: [    0.000000] initial memory mapped : 0 - 20000000
+Oct 15 03:59:22 darkside kernel: [    0.000000] Base memory trampoline at [ffff880000099000] 99000 size 20480
+Oct 15 03:59:22 darkside kernel: [    0.000000] init_memory_mapping: 0000000000000000-000000001fffe000
+Oct 15 03:59:22 darkside kernel: [    0.000000]  0000000000 - 001fe00000 page 2M
+Oct 15 03:59:22 darkside kernel: [    0.000000]  001fe00000 - 001fffe000 page 4k
+Oct 15 03:59:22 darkside kernel: [    0.000000] kernel direct mapping tables up to 1fffe000 @ 1fffb000-1fffe000
+Oct 15 03:59:22 darkside kernel: [    0.000000] RAMDISK: 1f14f000 - 1fb10000
+Oct 15 03:59:22 darkside kernel: [    0.000000] ACPI: RSDP 00000000000fd990 00014 (v00 BOCHS )
+Oct 15 03:59:22 darkside kernel: [    0.000000] ACPI: RSDT 000000001fffe5b0 00038 (v01 BOCHS  BXPCRSDT 00000001 BXPC 00000001)
+Oct 15 03:59:22 darkside kernel: [    0.000000] ACPI: FACP 000000001fffff80 00074 (v01 BOCHS  BXPCFACP 00000001 BXPC 00000001)
+Oct 15 03:59:22 darkside kernel: [    0.000000] ACPI: DSDT 000000001fffe5f0 01121 (v01   BXPC   BXDSDT 00000001 INTL 20100528)
+Oct 15 03:59:22 darkside kernel: [    0.000000] ACPI: FACS 000000001fffff40 00040
+Oct 15 03:59:22 darkside kernel: [    0.000000] ACPI: SSDT 000000001ffffea0 0009E (v01 BOCHS  BXPCSSDT 00000001 BXPC 00000001)
+Oct 15 03:59:22 darkside kernel: [    0.000000] ACPI: APIC 000000001ffffdb0 00078 (v01 BOCHS  BXPCAPIC 00000001 BXPC 00000001)
+Oct 15 03:59:22 darkside kernel: [    0.000000] ACPI: HPET 000000001ffffd70 00038 (v01 BOCHS  BXPCHPET 00000001 BXPC 00000001)
+Oct 15 03:59:22 darkside kernel: [    0.000000] ACPI: SSDT 000000001ffff720 00644 (v01   BXPC BXSSDTPC 00000001 INTL 20100528)
+Oct 15 03:59:22 darkside kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Oct 15 03:59:22 darkside kernel: [    0.000000] No NUMA configuration found
+Oct 15 03:59:22 darkside kernel: [    0.000000] Faking a node at 0000000000000000-000000001fffe000
+Oct 15 03:59:22 darkside kernel: [    0.000000] Initmem setup node 0 0000000000000000-000000001fffe000
+Oct 15 03:59:22 darkside kernel: [    0.000000]   NODE_DATA [000000001fff6000 - 000000001fffafff]
+Oct 15 03:59:22 darkside kernel: [    0.000000] kvm-clock: Using msrs 4b564d01 and 4b564d00
+Oct 15 03:59:22 darkside kernel: [    0.000000] kvm-clock: cpu 0, msr 0:16a9701, boot clock
+Oct 15 03:59:22 darkside kernel: [    0.000000]  [ffffea0000000000-ffffea00007fffff] PMD -> [ffff88001e400000-ffff88001ebfffff] on node 0
+Oct 15 03:59:22 darkside kernel: [    0.000000] Zone PFN ranges:
+Oct 15 03:59:22 darkside kernel: [    0.000000]   DMA      0x00000010 -> 0x00001000
+Oct 15 03:59:22 darkside kernel: [    0.000000]   DMA32    0x00001000 -> 0x00100000
+Oct 15 03:59:22 darkside kernel: [    0.000000]   Normal   empty
+Oct 15 03:59:22 darkside kernel: [    0.000000] Movable zone start PFN for each node
+Oct 15 03:59:22 darkside kernel: [    0.000000] early_node_map[2] active PFN ranges
+Oct 15 03:59:22 darkside kernel: [    0.000000]     0: 0x00000010 -> 0x0000009e
+Oct 15 03:59:22 darkside kernel: [    0.000000]     0: 0x00000100 -> 0x0001fffe
+Oct 15 03:59:22 darkside kernel: [    0.000000] On node 0 totalpages: 130956
+Oct 15 03:59:22 darkside kernel: [    0.000000]   DMA zone: 56 pages used for memmap
+Oct 15 03:59:22 darkside kernel: [    0.000000]   DMA zone: 5 pages reserved
+Oct 15 03:59:22 darkside kernel: [    0.000000]   DMA zone: 3921 pages, LIFO batch:0
+Oct 15 03:59:22 darkside kernel: [    0.000000]   DMA32 zone: 1736 pages used for memmap
+Oct 15 03:59:22 darkside kernel: [    0.000000]   DMA32 zone: 125238 pages, LIFO batch:31
+Oct 15 03:59:22 darkside kernel: [    0.000000] ACPI: PM-Timer IO Port: 0xb008
+Oct 15 03:59:22 darkside kernel: [    0.000000] ACPI: Local APIC address 0xfee00000
+Oct 15 03:59:22 darkside kernel: [    0.000000] ACPI: LAPIC (acpi_id[0x00] lapic_id[0x00] enabled)
+Oct 15 03:59:22 darkside kernel: [    0.000000] ACPI: LAPIC_NMI (acpi_id[0xff] dfl dfl lint[0x1])
+Oct 15 03:59:22 darkside kernel: [    0.000000] ACPI: IOAPIC (id[0x01] address[0xfec00000] gsi_base[0])
+Oct 15 03:59:22 darkside kernel: [    0.000000] IOAPIC[0]: apic_id 1, version 17, address 0xfec00000, GSI 0-23
+Oct 15 03:59:22 darkside kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+Oct 15 03:59:22 darkside kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 5 global_irq 5 high level)
+Oct 15 03:59:22 darkside kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 high level)
+Oct 15 03:59:22 darkside kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 10 global_irq 10 high level)
+Oct 15 03:59:22 darkside kernel: [    0.000000] ACPI: INT_SRC_OVR (bus 0 bus_irq 11 global_irq 11 high level)
+Oct 15 03:59:22 darkside kernel: [    0.000000] ACPI: IRQ0 used by override.
+Oct 15 03:59:22 darkside kernel: [    0.000000] ACPI: IRQ2 used by override.
+Oct 15 03:59:22 darkside kernel: [    0.000000] ACPI: IRQ5 used by override.
+Oct 15 03:59:22 darkside kernel: [    0.000000] ACPI: IRQ9 used by override.
+Oct 15 03:59:22 darkside kernel: [    0.000000] ACPI: IRQ10 used by override.
+Oct 15 03:59:22 darkside kernel: [    0.000000] ACPI: IRQ11 used by override.
+Oct 15 03:59:22 darkside kernel: [    0.000000] Using ACPI (MADT) for SMP configuration information
+Oct 15 03:59:22 darkside kernel: [    0.000000] ACPI: HPET id: 0x8086a201 base: 0xfed00000
+Oct 15 03:59:22 darkside kernel: [    0.000000] SMP: Allowing 1 CPUs, 0 hotplug CPUs
+Oct 15 03:59:22 darkside kernel: [    0.000000] nr_irqs_gsi: 40
+Oct 15 03:59:22 darkside kernel: [    0.000000] PM: Registered nosave memory: 000000000009e000 - 000000000009f000
+Oct 15 03:59:22 darkside kernel: [    0.000000] PM: Registered nosave memory: 000000000009f000 - 00000000000a0000
+Oct 15 03:59:22 darkside kernel: [    0.000000] PM: Registered nosave memory: 00000000000a0000 - 00000000000f0000
+Oct 15 03:59:22 darkside kernel: [    0.000000] PM: Registered nosave memory: 00000000000f0000 - 0000000000100000
+Oct 15 03:59:22 darkside kernel: [    0.000000] Allocating PCI resources starting at 20000000 (gap: 20000000:deffc000)
+Oct 15 03:59:22 darkside kernel: [    0.000000] Booting paravirtualized kernel on KVM
+Oct 15 03:59:22 darkside kernel: [    0.000000] setup_percpu: NR_CPUS:512 nr_cpumask_bits:512 nr_cpu_ids:1 nr_node_ids:1
+Oct 15 03:59:22 darkside kernel: [    0.000000] PERCPU: Embedded 28 pages/cpu @ffff88001fc00000 s82944 r8192 d23552 u2097152
+Oct 15 03:59:22 darkside kernel: [    0.000000] pcpu-alloc: s82944 r8192 d23552 u2097152 alloc=1*2097152
+Oct 15 03:59:22 darkside kernel: [    0.000000] pcpu-alloc: [0] 0 
+Oct 15 03:59:22 darkside kernel: [    0.000000] kvm-clock: cpu 0, msr 0:1fc13701, primary cpu clock
+Oct 15 03:59:22 darkside kernel: [    0.000000] KVM setup async PF for cpu 0
+Oct 15 03:59:22 darkside kernel: [    0.000000] kvm-stealtime: cpu 0, msr 1fc0dfc0
+Oct 15 03:59:22 darkside kernel: [    0.000000] Built 1 zonelists in Node order, mobility grouping on.  Total pages: 129159
+Oct 15 03:59:22 darkside kernel: [    0.000000] Policy zone: DMA32
+Oct 15 03:59:22 darkside kernel: [    0.000000] Kernel command line: BOOT_IMAGE=/boot/vmlinuz-3.2.0-4-amd64 root=UUID=53db0424-d9fe-45e5-9e4c-96563154814f ro quiet
+Oct 15 03:59:22 darkside kernel: [    0.000000] PID hash table entries: 2048 (order: 2, 16384 bytes)
+Oct 15 03:59:22 darkside kernel: [    0.000000] Checking aperture...
+Oct 15 03:59:22 darkside kernel: [    0.000000] No AGP bridge found
+Oct 15 03:59:22 darkside kernel: [    0.000000] Calgary: detecting Calgary via BIOS EBDA area
+Oct 15 03:59:22 darkside kernel: [    0.000000] Calgary: Unable to locate Rio Grande table in EBDA - bailing!
+Oct 15 03:59:22 darkside kernel: [    0.000000] Memory: 497032k/524280k available (3431k kernel code, 456k absent, 26792k reserved, 3308k data, 580k init)
+Oct 15 03:59:22 darkside kernel: [    0.000000] Hierarchical RCU implementation.
+Oct 15 03:59:22 darkside kernel: [    0.000000] 	RCU dyntick-idle grace-period acceleration is enabled.
+Oct 15 03:59:22 darkside kernel: [    0.000000] NR_IRQS:33024 nr_irqs:256 16
+Oct 15 03:59:22 darkside kernel: [    0.000000] Console: colour VGA+ 80x25
+Oct 15 03:59:22 darkside kernel: [    0.000000] console [tty0] enabled
+Oct 15 03:59:22 darkside kernel: [    0.000000] hpet clockevent registered
+Oct 15 03:59:22 darkside kernel: [    0.000000] Detected 2925.996 MHz processor.
+Oct 15 03:59:22 darkside kernel: [    0.008000] Calibrating delay loop (skipped) preset value.. 5851.99 BogoMIPS (lpj=11703984)
+Oct 15 03:59:22 darkside kernel: [    0.008000] pid_max: default: 32768 minimum: 301
+Oct 15 03:59:22 darkside kernel: [    0.008000] Security Framework initialized
+Oct 15 03:59:22 darkside kernel: [    0.008000] AppArmor: AppArmor disabled by boot time parameter
+Oct 15 03:59:22 darkside kernel: [    0.008000] Dentry cache hash table entries: 65536 (order: 7, 524288 bytes)
+Oct 15 03:59:22 darkside kernel: [    0.008000] Inode-cache hash table entries: 32768 (order: 6, 262144 bytes)
+Oct 15 03:59:22 darkside kernel: [    0.008000] Mount-cache hash table entries: 256
+Oct 15 03:59:22 darkside kernel: [    0.008000] Initializing cgroup subsys cpuacct
+Oct 15 03:59:22 darkside kernel: [    0.008000] Initializing cgroup subsys memory
+Oct 15 03:59:22 darkside kernel: [    0.008000] Initializing cgroup subsys devices
+Oct 15 03:59:22 darkside kernel: [    0.008000] Initializing cgroup subsys freezer
+Oct 15 03:59:22 darkside kernel: [    0.008000] Initializing cgroup subsys net_cls
+Oct 15 03:59:22 darkside kernel: [    0.008000] Initializing cgroup subsys blkio
+Oct 15 03:59:22 darkside kernel: [    0.008000] Initializing cgroup subsys perf_event
+Oct 15 03:59:22 darkside kernel: [    0.008000] mce: CPU supports 10 MCE banks
+Oct 15 03:59:22 darkside kernel: [    0.008000] SMP alternatives: switching to UP code
+Oct 15 03:59:22 darkside kernel: [    0.009345] Freeing SMP alternatives: 8k freed
+Oct 15 03:59:22 darkside kernel: [    0.009353] ACPI: Core revision 20110623
+Oct 15 03:59:22 darkside kernel: [    0.011015] ..TIMER: vector=0x30 apic1=0 pin1=2 apic2=-1 pin2=-1
+Oct 15 03:59:22 darkside kernel: [    0.011017] CPU0: Intel Core i7 9xx (Nehalem Class Core i7) stepping 03
+Oct 15 03:59:22 darkside kernel: [    0.012000] Performance Events: unsupported p6 CPU model 2 no PMU driver, software events only.
+Oct 15 03:59:22 darkside kernel: [    0.012000] NMI watchdog disabled (cpu0): hardware events not enabled
+Oct 15 03:59:22 darkside kernel: [    0.012000] Brought up 1 CPUs
+Oct 15 03:59:22 darkside kernel: [    0.012000] Total of 1 processors activated (5851.99 BogoMIPS).
+Oct 15 03:59:22 darkside kernel: [    0.012000] devtmpfs: initialized
+Oct 15 03:59:22 darkside kernel: [    0.012000] print_constraints: dummy: 
+Oct 15 03:59:22 darkside kernel: [    0.012000] NET: Registered protocol family 16
+Oct 15 03:59:22 darkside kernel: [    0.012000] ACPI: bus type pci registered
+Oct 15 03:59:22 darkside kernel: [    0.012000] PCI: Using configuration type 1 for base access
+Oct 15 03:59:22 darkside kernel: [    0.012000] bio: create slab <bio-0> at 0
+Oct 15 03:59:22 darkside kernel: [    0.012000] ACPI: Added _OSI(Module Device)
+Oct 15 03:59:22 darkside kernel: [    0.012000] ACPI: Added _OSI(Processor Device)
+Oct 15 03:59:22 darkside kernel: [    0.012000] ACPI: Added _OSI(3.0 _SCP Extensions)
+Oct 15 03:59:22 darkside kernel: [    0.012000] ACPI: Added _OSI(Processor Aggregator Device)
+Oct 15 03:59:22 darkside kernel: [    0.012000] ACPI: EC: Look up EC in DSDT
+Oct 15 03:59:22 darkside kernel: [    0.012658] ACPI: Interpreter enabled
+Oct 15 03:59:22 darkside kernel: [    0.012660] ACPI: (supports S0 S3 S4 S5)
+Oct 15 03:59:22 darkside kernel: [    0.012673] ACPI: Using IOAPIC for interrupt routing
+Oct 15 03:59:22 darkside kernel: [    0.015064] ACPI: No dock devices found.
+Oct 15 03:59:22 darkside kernel: [    0.015066] HEST: Table not found.
+Oct 15 03:59:22 darkside kernel: [    0.015068] PCI: Ignoring host bridge windows from ACPI; if necessary, use "pci=use_crs" and report a bug
+Oct 15 03:59:22 darkside kernel: [    0.015082] ACPI: PCI Root Bridge [PCI0] (domain 0000 [bus 00-ff])
+Oct 15 03:59:22 darkside kernel: [    0.015117] pci_root PNP0A03:00: host bridge window [io  0x0000-0x0cf7] (ignored)
+Oct 15 03:59:22 darkside kernel: [    0.015119] pci_root PNP0A03:00: host bridge window [io  0x0d00-0xffff] (ignored)
+Oct 15 03:59:22 darkside kernel: [    0.015121] pci_root PNP0A03:00: host bridge window [mem 0x000a0000-0x000bffff] (ignored)
+Oct 15 03:59:22 darkside kernel: [    0.015123] pci_root PNP0A03:00: host bridge window [mem 0xe0000000-0xfebfffff] (ignored)
+Oct 15 03:59:22 darkside kernel: [    0.015157] pci 0000:00:00.0: [8086:1237] type 0 class 0x000600
+Oct 15 03:59:22 darkside kernel: [    0.015374] pci 0000:00:01.0: [8086:7000] type 0 class 0x000601
+Oct 15 03:59:22 darkside kernel: [    0.015690] pci 0000:00:01.1: [8086:7010] type 0 class 0x000101
+Oct 15 03:59:22 darkside kernel: [    0.017127] pci 0000:00:01.1: reg 20: [io  0xc0a0-0xc0af]
+Oct 15 03:59:22 darkside kernel: [    0.017775] pci 0000:00:01.2: [8086:7020] type 0 class 0x000c03
+Oct 15 03:59:22 darkside kernel: [    0.019204] pci 0000:00:01.2: reg 20: [io  0xc040-0xc05f]
+Oct 15 03:59:22 darkside kernel: [    0.019843] pci 0000:00:01.3: [8086:7113] type 0 class 0x000680
+Oct 15 03:59:22 darkside kernel: [    0.020150] pci 0000:00:01.3: quirk: [io  0xb000-0xb03f] claimed by PIIX4 ACPI
+Oct 15 03:59:22 darkside kernel: [    0.020158] pci 0000:00:01.3: quirk: [io  0xb100-0xb10f] claimed by PIIX4 SMB
+Oct 15 03:59:22 darkside kernel: [    0.020280] pci 0000:00:03.0: [8086:100e] type 0 class 0x000200
+Oct 15 03:59:22 darkside kernel: [    0.020823] pci 0000:00:03.0: reg 10: [mem 0xfeba0000-0xfebbffff]
+Oct 15 03:59:22 darkside kernel: [    0.021345] pci 0000:00:03.0: reg 14: [io  0xc000-0xc03f]
+Oct 15 03:59:22 darkside kernel: [    0.023950] pci 0000:00:03.0: reg 30: [mem 0xfebc0000-0xfebdffff pref]
+Oct 15 03:59:22 darkside kernel: [    0.024068] pci 0000:00:04.0: [8086:2922] type 0 class 0x000106
+Oct 15 03:59:22 darkside kernel: [    0.026725] pci 0000:00:04.0: reg 20: [io  0xc060-0xc07f]
+Oct 15 03:59:22 darkside kernel: [    0.027247] pci 0000:00:04.0: reg 24: [mem 0xfebe0000-0xfebe0fff]
+Oct 15 03:59:22 darkside kernel: [    0.028019] pci 0000:00:05.0: [1af4:1002] type 0 class 0x0000ff
+Oct 15 03:59:22 darkside kernel: [    0.028322] pci 0000:00:05.0: reg 10: [io  0xc080-0xc09f]
+Oct 15 03:59:22 darkside kernel: [    0.030214] ACPI: PCI Interrupt Routing Table [\_SB_.PCI0._PRT]
+Oct 15 03:59:22 darkside kernel: [    0.030580]  pci0000:00: Unable to request _OSC control (_OSC support mask: 0x1e)
+Oct 15 03:59:22 darkside kernel: [    0.032661] ACPI: PCI Interrupt Link [LNKA] (IRQs 5 *10 11)
+Oct 15 03:59:22 darkside kernel: [    0.032728] ACPI: PCI Interrupt Link [LNKB] (IRQs 5 *10 11)
+Oct 15 03:59:22 darkside kernel: [    0.032793] ACPI: PCI Interrupt Link [LNKC] (IRQs 5 10 *11)
+Oct 15 03:59:22 darkside kernel: [    0.032857] ACPI: PCI Interrupt Link [LNKD] (IRQs 5 10 *11)
+Oct 15 03:59:22 darkside kernel: [    0.032917] ACPI: PCI Interrupt Link [LNKS] (IRQs 9) *0
+Oct 15 03:59:22 darkside kernel: [    0.033005] vgaarb: loaded
+Oct 15 03:59:22 darkside kernel: [    0.033034] PCI: Using ACPI for IRQ routing
+Oct 15 03:59:22 darkside kernel: [    0.033035] PCI: pci_cache_line_size set to 64 bytes
+Oct 15 03:59:22 darkside kernel: [    0.033150] reserve RAM buffer: 000000000009ec00 - 000000000009ffff 
+Oct 15 03:59:22 darkside kernel: [    0.033151] reserve RAM buffer: 000000001fffe000 - 000000001fffffff 
+Oct 15 03:59:22 darkside kernel: [    0.033240] HPET: 3 timers in total, 0 timers will be used for per-cpu timer
+Oct 15 03:59:22 darkside kernel: [    0.033255] hpet0: at MMIO 0xfed00000, IRQs 2, 8, 0
+Oct 15 03:59:22 darkside kernel: [    0.033257] hpet0: 3 comparators, 64-bit 100.000000 MHz counter
+Oct 15 03:59:22 darkside kernel: [    0.040044] Switching to clocksource kvm-clock
+Oct 15 03:59:22 darkside kernel: [    0.041790] pnp: PnP ACPI init
+Oct 15 03:59:22 darkside kernel: [    0.041800] ACPI: bus type pnp registered
+Oct 15 03:59:22 darkside kernel: [    0.041814] pnp 00:00: [bus 00-ff]
+Oct 15 03:59:22 darkside kernel: [    0.041816] pnp 00:00: [io  0x0cf8-0x0cff]
+Oct 15 03:59:22 darkside kernel: [    0.041818] pnp 00:00: [io  0x0000-0x0cf7 window]
+Oct 15 03:59:22 darkside kernel: [    0.041819] pnp 00:00: [io  0x0d00-0xffff window]
+Oct 15 03:59:22 darkside kernel: [    0.041821] pnp 00:00: [mem 0x000a0000-0x000bffff window]
+Oct 15 03:59:22 darkside kernel: [    0.041823] pnp 00:00: [mem 0xe0000000-0xfebfffff window]
+Oct 15 03:59:22 darkside kernel: [    0.041844] pnp 00:00: Plug and Play ACPI device, IDs PNP0a03 (active)
+Oct 15 03:59:22 darkside kernel: [    0.041854] pnp 00:01: [io  0x0070-0x0071]
+Oct 15 03:59:22 darkside kernel: [    0.041871] pnp 00:01: [irq 8]
+Oct 15 03:59:22 darkside kernel: [    0.041873] pnp 00:01: [io  0x0072-0x0077]
+Oct 15 03:59:22 darkside kernel: [    0.041891] pnp 00:01: Plug and Play ACPI device, IDs PNP0b00 (active)
+Oct 15 03:59:22 darkside kernel: [    0.041912] pnp 00:02: [io  0x0060]
+Oct 15 03:59:22 darkside kernel: [    0.041928] pnp 00:02: [io  0x0064]
+Oct 15 03:59:22 darkside kernel: [    0.041942] pnp 00:02: [irq 1]
+Oct 15 03:59:22 darkside kernel: [    0.041962] pnp 00:02: Plug and Play ACPI device, IDs PNP0303 (active)
+Oct 15 03:59:22 darkside kernel: [    0.041994] pnp 00:03: [irq 12]
+Oct 15 03:59:22 darkside kernel: [    0.042012] pnp 00:03: Plug and Play ACPI device, IDs PNP0f13 (active)
+Oct 15 03:59:22 darkside kernel: [    0.042031] pnp 00:04: [io  0x03f2-0x03f5]
+Oct 15 03:59:22 darkside kernel: [    0.042032] pnp 00:04: [io  0x03f7]
+Oct 15 03:59:22 darkside kernel: [    0.042046] pnp 00:04: [irq 6]
+Oct 15 03:59:22 darkside kernel: [    0.042048] pnp 00:04: [dma 2]
+Oct 15 03:59:22 darkside kernel: [    0.042066] pnp 00:04: Plug and Play ACPI device, IDs PNP0700 (active)
+Oct 15 03:59:22 darkside kernel: [    0.042132] pnp 00:05: [io  0x03f8-0x03ff]
+Oct 15 03:59:22 darkside kernel: [    0.042146] pnp 00:05: [irq 4]
+Oct 15 03:59:22 darkside kernel: [    0.042166] pnp 00:05: Plug and Play ACPI device, IDs PNP0501 (active)
+Oct 15 03:59:22 darkside kernel: [    0.042268] pnp 00:06: [mem 0xfed00000-0xfed003ff]
+Oct 15 03:59:22 darkside kernel: [    0.042291] pnp 00:06: Plug and Play ACPI device, IDs PNP0103 (active)
+Oct 15 03:59:22 darkside kernel: [    0.042404] pnp: PnP ACPI: found 7 devices
+Oct 15 03:59:22 darkside kernel: [    0.042405] ACPI: ACPI bus type pnp unregistered
+Oct 15 03:59:22 darkside kernel: [    0.048261] PCI: max bus depth: 0 pci_try_num: 1
+Oct 15 03:59:22 darkside kernel: [    0.048266] pci_bus 0000:00: resource 0 [io  0x0000-0xffff]
+Oct 15 03:59:22 darkside kernel: [    0.048267] pci_bus 0000:00: resource 1 [mem 0x00000000-0xffffffffff]
+Oct 15 03:59:22 darkside kernel: [    0.048290] NET: Registered protocol family 2
+Oct 15 03:59:22 darkside kernel: [    0.048323] IP route cache hash table entries: 4096 (order: 3, 32768 bytes)
+Oct 15 03:59:22 darkside kernel: [    0.048445] TCP established hash table entries: 16384 (order: 6, 262144 bytes)
+Oct 15 03:59:22 darkside kernel: [    0.048486] TCP bind hash table entries: 16384 (order: 6, 262144 bytes)
+Oct 15 03:59:22 darkside kernel: [    0.048517] TCP: Hash tables configured (established 16384 bind 16384)
+Oct 15 03:59:22 darkside kernel: [    0.048519] TCP reno registered
+Oct 15 03:59:22 darkside kernel: [    0.048521] UDP hash table entries: 256 (order: 1, 8192 bytes)
+Oct 15 03:59:22 darkside kernel: [    0.048524] UDP-Lite hash table entries: 256 (order: 1, 8192 bytes)
+Oct 15 03:59:22 darkside kernel: [    0.048561] NET: Registered protocol family 1
+Oct 15 03:59:22 darkside kernel: [    0.048568] pci 0000:00:00.0: Limiting direct PCI/PCI transfers
+Oct 15 03:59:22 darkside kernel: [    0.048583] pci 0000:00:01.0: PIIX3: Enabling Passive Release
+Oct 15 03:59:22 darkside kernel: [    0.048598] pci 0000:00:01.0: Activating ISA DMA hang workarounds
+Oct 15 03:59:22 darkside kernel: [    0.048703] ACPI: PCI Interrupt Link [LNKD] enabled at IRQ 11
+Oct 15 03:59:22 darkside kernel: [    0.048815] PCI: CLS 0 bytes, default 64
+Oct 15 03:59:22 darkside kernel: [    0.048840] Unpacking initramfs...
+Oct 15 03:59:22 darkside kernel: [    0.218915] Freeing initrd memory: 9988k freed
+Oct 15 03:59:22 darkside kernel: [    0.220807] audit: initializing netlink socket (disabled)
+Oct 15 03:59:22 darkside kernel: [    0.220820] type=2000 audit(1413359958.220:1): initialized
+Oct 15 03:59:22 darkside kernel: [    0.231152] HugeTLB registered 2 MB page size, pre-allocated 0 pages
+Oct 15 03:59:22 darkside kernel: [    0.231318] VFS: Disk quotas dquot_6.5.2
+Oct 15 03:59:22 darkside kernel: [    0.231335] Dquot-cache hash table entries: 512 (order 0, 4096 bytes)
+Oct 15 03:59:22 darkside kernel: [    0.231389] msgmni has been set to 990
+Oct 15 03:59:22 darkside kernel: [    0.231536] alg: No test for stdrng (krng)
+Oct 15 03:59:22 darkside kernel: [    0.231552] Block layer SCSI generic (bsg) driver version 0.4 loaded (major 253)
+Oct 15 03:59:22 darkside kernel: [    0.231554] io scheduler noop registered
+Oct 15 03:59:22 darkside kernel: [    0.231555] io scheduler deadline registered
+Oct 15 03:59:22 darkside kernel: [    0.231560] io scheduler cfq registered (default)
+Oct 15 03:59:22 darkside kernel: [    0.231622] pci_hotplug: PCI Hot Plug PCI Core version: 0.5
+Oct 15 03:59:22 darkside kernel: [    0.231635] pciehp: PCI Express Hot Plug Controller Driver version: 0.4
+Oct 15 03:59:22 darkside kernel: [    0.231636] acpiphp: ACPI Hot Plug PCI Controller Driver version: 0.5
+Oct 15 03:59:22 darkside kernel: [    0.231699] acpiphp: Slot [2] registered
+Oct 15 03:59:22 darkside kernel: [    0.231715] acpiphp: Slot [3] registered
+Oct 15 03:59:22 darkside kernel: [    0.231734] acpiphp: Slot [4] registered
+Oct 15 03:59:22 darkside kernel: [    0.231751] acpiphp: Slot [5] registered
+Oct 15 03:59:22 darkside kernel: [    0.231765] acpiphp: Slot [6] registered
+Oct 15 03:59:22 darkside kernel: [    0.231779] acpiphp: Slot [7] registered
+Oct 15 03:59:22 darkside kernel: [    0.231793] acpiphp: Slot [8] registered
+Oct 15 03:59:22 darkside kernel: [    0.231807] acpiphp: Slot [9] registered
+Oct 15 03:59:22 darkside kernel: [    0.231820] acpiphp: Slot [10] registered
+Oct 15 03:59:22 darkside kernel: [    0.231838] acpiphp: Slot [11] registered
+Oct 15 03:59:22 darkside kernel: [    0.231853] acpiphp: Slot [12] registered
+Oct 15 03:59:22 darkside kernel: [    0.231866] acpiphp: Slot [13] registered
+Oct 15 03:59:22 darkside kernel: [    0.231889] acpiphp: Slot [14] registered
+Oct 15 03:59:22 darkside kernel: [    0.231904] acpiphp: Slot [15] registered
+Oct 15 03:59:22 darkside kernel: [    0.231917] acpiphp: Slot [16] registered
+Oct 15 03:59:22 darkside kernel: [    0.231935] acpiphp: Slot [17] registered
+Oct 15 03:59:22 darkside kernel: [    0.231950] acpiphp: Slot [18] registered
+Oct 15 03:59:22 darkside kernel: [    0.231964] acpiphp: Slot [19] registered
+Oct 15 03:59:22 darkside kernel: [    0.231987] acpiphp: Slot [20] registered
+Oct 15 03:59:22 darkside kernel: [    0.232001] acpiphp: Slot [21] registered
+Oct 15 03:59:22 darkside kernel: [    0.232046] acpiphp: Slot [22] registered
+Oct 15 03:59:22 darkside kernel: [    0.232065] acpiphp: Slot [23] registered
+Oct 15 03:59:22 darkside kernel: [    0.232085] acpiphp: Slot [24] registered
+Oct 15 03:59:22 darkside kernel: [    0.232099] acpiphp: Slot [25] registered
+Oct 15 03:59:22 darkside kernel: [    0.232117] acpiphp: Slot [26] registered
+Oct 15 03:59:22 darkside kernel: [    0.232132] acpiphp: Slot [27] registered
+Oct 15 03:59:22 darkside kernel: [    0.232146] acpiphp: Slot [28] registered
+Oct 15 03:59:22 darkside kernel: [    0.232164] acpiphp: Slot [29] registered
+Oct 15 03:59:22 darkside kernel: [    0.232179] acpiphp: Slot [30] registered
+Oct 15 03:59:22 darkside kernel: [    0.232193] acpiphp: Slot [31] registered
+Oct 15 03:59:22 darkside kernel: [    0.232305] intel_idle: does not run on family 6 model 2
+Oct 15 03:59:22 darkside kernel: [    0.232319] ERST: Table is not found!
+Oct 15 03:59:22 darkside kernel: [    0.232320] GHES: HEST is not enabled!
+Oct 15 03:59:22 darkside kernel: [    0.232362] Serial: 8250/16550 driver, 4 ports, IRQ sharing enabled
+Oct 15 03:59:22 darkside kernel: [    0.253629] serial8250: ttyS0 at I/O 0x3f8 (irq = 4) is a 16550A
+Oct 15 03:59:22 darkside kernel: [    0.275205] 00:05: ttyS0 at I/O 0x3f8 (irq = 4) is a 16550A
+Oct 15 03:59:22 darkside kernel: [    0.275398] Linux agpgart interface v0.103
+Oct 15 03:59:22 darkside kernel: [    0.275543] i8042: PNP: PS/2 Controller [PNP0303:KBD,PNP0f13:MOU] at 0x60,0x64 irq 1,12
+Oct 15 03:59:22 darkside kernel: [    0.276120] serio: i8042 KBD port at 0x60,0x64 irq 1
+Oct 15 03:59:22 darkside kernel: [    0.276125] serio: i8042 AUX port at 0x60,0x64 irq 12
+Oct 15 03:59:22 darkside kernel: [    0.276218] mousedev: PS/2 mouse device common for all mice
+Oct 15 03:59:22 darkside kernel: [    0.276421] input: AT Translated Set 2 keyboard as /devices/platform/i8042/serio0/input/input0
+Oct 15 03:59:22 darkside kernel: [    0.276590] rtc_cmos 00:01: RTC can wake from S4
+Oct 15 03:59:22 darkside kernel: [    0.276750] rtc_cmos 00:01: rtc core: registered rtc_cmos as rtc0
+Oct 15 03:59:22 darkside kernel: [    0.276837] rtc0: alarms up to one day, 114 bytes nvram, hpet irqs
+Oct 15 03:59:22 darkside kernel: [    0.276846] cpuidle: using governor ladder
+Oct 15 03:59:22 darkside kernel: [    0.276847] cpuidle: using governor menu
+Oct 15 03:59:22 darkside kernel: [    0.276961] TCP cubic registered
+Oct 15 03:59:22 darkside kernel: [    0.276977] NET: Registered protocol family 10
+Oct 15 03:59:22 darkside kernel: [    0.277375] Mobile IPv6
+Oct 15 03:59:22 darkside kernel: [    0.277377] NET: Registered protocol family 17
+Oct 15 03:59:22 darkside kernel: [    0.277380] Registering the dns_resolver key type
+Oct 15 03:59:22 darkside kernel: [    0.277481] PM: Hibernation image not present or could not be loaded.
+Oct 15 03:59:22 darkside kernel: [    0.277488] registered taskstats version 1
+Oct 15 03:59:22 darkside kernel: [    0.277677] rtc_cmos 00:01: setting system clock to 2014-10-15 07:59:16 UTC (1413359956)
+Oct 15 03:59:22 darkside kernel: [    0.277707] Initializing network drop monitor service
+Oct 15 03:59:22 darkside kernel: [    0.278568] Freeing unused kernel memory: 580k freed
+Oct 15 03:59:22 darkside kernel: [    0.278658] Write protecting the kernel read-only data: 6144k
+Oct 15 03:59:22 darkside kernel: [    0.280463] Freeing unused kernel memory: 648k freed
+Oct 15 03:59:22 darkside kernel: [    0.282421] Freeing unused kernel memory: 688k freed
+Oct 15 03:59:22 darkside kernel: [    0.310095] usbcore: registered new interface driver usbfs
+Oct 15 03:59:22 darkside kernel: [    0.310111] usbcore: registered new interface driver hub
+Oct 15 03:59:22 darkside kernel: [    0.314439] SCSI subsystem initialized
+Oct 15 03:59:22 darkside kernel: [    0.316570] ACPI: PCI Interrupt Link [LNKA] enabled at IRQ 10
+Oct 15 03:59:22 darkside kernel: [    0.316625] virtio-pci 0000:00:05.0: setting latency timer to 64
+Oct 15 03:59:22 darkside kernel: [    0.317748] e1000: Intel(R) PRO/1000 Network Driver - version 7.3.21-k8-NAPI
+Oct 15 03:59:22 darkside kernel: [    0.317750] e1000: Copyright (c) 1999-2006 Intel Corporation.
+Oct 15 03:59:22 darkside kernel: [    0.317853] ACPI: PCI Interrupt Link [LNKC] enabled at IRQ 11
+Oct 15 03:59:22 darkside kernel: [    0.317894] e1000 0000:00:03.0: setting latency timer to 64
+Oct 15 03:59:22 darkside kernel: [    0.325545] usbcore: registered new device driver usb
+Oct 15 03:59:22 darkside kernel: [    0.325831] ehci_hcd: USB 2.0 'Enhanced' Host Controller (EHCI) Driver
+Oct 15 03:59:22 darkside kernel: [    0.326060] uhci_hcd: USB Universal Host Controller Interface driver
+Oct 15 03:59:22 darkside kernel: [    0.333884] libata version 3.00 loaded.
+Oct 15 03:59:22 darkside kernel: [    0.624359] FDC 0 is a S82078B
+Oct 15 03:59:22 darkside kernel: [    0.641457] e1000 0000:00:03.0: eth0: (PCI:33MHz:32-bit) 52:54:00:62:1f:8e
+Oct 15 03:59:22 darkside kernel: [    0.641465] e1000 0000:00:03.0: eth0: Intel(R) PRO/1000 Network Connection
+Oct 15 03:59:22 darkside kernel: [    0.641534] uhci_hcd 0000:00:01.2: setting latency timer to 64
+Oct 15 03:59:22 darkside kernel: [    0.641541] uhci_hcd 0000:00:01.2: UHCI Host Controller
+Oct 15 03:59:22 darkside kernel: [    0.641567] uhci_hcd 0000:00:01.2: new USB bus registered, assigned bus number 1
+Oct 15 03:59:22 darkside kernel: [    0.641647] uhci_hcd 0000:00:01.2: irq 11, io base 0x0000c040
+Oct 15 03:59:22 darkside kernel: [    0.641694] usb usb1: New USB device found, idVendor=1d6b, idProduct=0001
+Oct 15 03:59:22 darkside kernel: [    0.641696] usb usb1: New USB device strings: Mfr=3, Product=2, SerialNumber=1
+Oct 15 03:59:22 darkside kernel: [    0.641698] usb usb1: Product: UHCI Host Controller
+Oct 15 03:59:22 darkside kernel: [    0.641699] usb usb1: Manufacturer: Linux 3.2.0-4-amd64 uhci_hcd
+Oct 15 03:59:22 darkside kernel: [    0.641700] usb usb1: SerialNumber: 0000:00:01.2
+Oct 15 03:59:22 darkside kernel: [    0.641778] hub 1-0:1.0: USB hub found
+Oct 15 03:59:22 darkside kernel: [    0.641781] hub 1-0:1.0: 2 ports detected
+Oct 15 03:59:22 darkside kernel: [    0.642069] ahci 0000:00:04.0: version 3.0
+Oct 15 03:59:22 darkside kernel: [    0.642253] ahci 0000:00:04.0: irq 40 for MSI/MSI-X
+Oct 15 03:59:22 darkside kernel: [    0.643063] ahci 0000:00:04.0: AHCI 0001.0000 32 slots 6 ports 1.5 Gbps 0x3f impl SATA mode
+Oct 15 03:59:22 darkside kernel: [    0.643070] ahci 0000:00:04.0: flags: ncq only 
+Oct 15 03:59:22 darkside kernel: [    0.643099] ahci 0000:00:04.0: setting latency timer to 64
+Oct 15 03:59:22 darkside kernel: [    0.645672] scsi0 : ahci
+Oct 15 03:59:22 darkside kernel: [    0.646489] scsi1 : ahci
+Oct 15 03:59:22 darkside kernel: [    0.646561] scsi2 : ahci
+Oct 15 03:59:22 darkside kernel: [    0.646627] scsi3 : ahci
+Oct 15 03:59:22 darkside kernel: [    0.646690] scsi4 : ahci
+Oct 15 03:59:22 darkside kernel: [    0.646754] scsi5 : ahci
+Oct 15 03:59:22 darkside kernel: [    0.646806] ata1: SATA max UDMA/133 abar m4096@0xfebe0000 port 0xfebe0100 irq 40
+Oct 15 03:59:22 darkside kernel: [    0.646813] ata2: SATA max UDMA/133 abar m4096@0xfebe0000 port 0xfebe0180 irq 40
+Oct 15 03:59:22 darkside kernel: [    0.646819] ata3: SATA max UDMA/133 abar m4096@0xfebe0000 port 0xfebe0200 irq 40
+Oct 15 03:59:22 darkside kernel: [    0.646825] ata4: SATA max UDMA/133 abar m4096@0xfebe0000 port 0xfebe0280 irq 40
+Oct 15 03:59:22 darkside kernel: [    0.646831] ata5: SATA max UDMA/133 abar m4096@0xfebe0000 port 0xfebe0300 irq 40
+Oct 15 03:59:22 darkside kernel: [    0.646837] ata6: SATA max UDMA/133 abar m4096@0xfebe0000 port 0xfebe0380 irq 40
+Oct 15 03:59:22 darkside kernel: [    0.646920] ata_piix 0000:00:01.1: version 2.13
+Oct 15 03:59:22 darkside kernel: [    0.646989] ata_piix 0000:00:01.1: setting latency timer to 64
+Oct 15 03:59:22 darkside kernel: [    0.647358] scsi6 : ata_piix
+Oct 15 03:59:22 darkside kernel: [    0.647481] scsi7 : ata_piix
+Oct 15 03:59:22 darkside kernel: [    0.647513] ata7: PATA max MWDMA2 cmd 0x1f0 ctl 0x3f6 bmdma 0xc0a0 irq 14
+Oct 15 03:59:22 darkside kernel: [    0.647515] ata8: PATA max MWDMA2 cmd 0x170 ctl 0x376 bmdma 0xc0a8 irq 15
+Oct 15 03:59:22 darkside kernel: [    0.952208] usb 1-1: new full-speed USB device number 2 using uhci_hcd
+Oct 15 03:59:22 darkside kernel: [    0.964240] ata3: SATA link down (SStatus 0 SControl 300)
+Oct 15 03:59:22 darkside kernel: [    0.964345] ata2: SATA link down (SStatus 0 SControl 300)
+Oct 15 03:59:22 darkside kernel: [    0.964445] ata4: SATA link down (SStatus 0 SControl 300)
+Oct 15 03:59:22 darkside kernel: [    0.964545] ata5: SATA link down (SStatus 0 SControl 300)
+Oct 15 03:59:22 darkside kernel: [    0.964645] ata6: SATA link down (SStatus 0 SControl 300)
+Oct 15 03:59:22 darkside kernel: [    0.964753] ata1: SATA link up 1.5 Gbps (SStatus 113 SControl 300)
+Oct 15 03:59:22 darkside kernel: [    0.964850] ata1.00: ATA-7: QEMU HARDDISK, 1.1.2, max UDMA/100
+Oct 15 03:59:22 darkside kernel: [    0.964852] ata1.00: 104857600 sectors, multi 16: LBA48 NCQ (depth 31/32)
+Oct 15 03:59:22 darkside kernel: [    0.964855] ata1.00: applying bridge limits
+Oct 15 03:59:22 darkside kernel: [    0.964926] ata1.00: configured for UDMA/100
+Oct 15 03:59:22 darkside kernel: [    0.964988] scsi 0:0:0:0: Direct-Access     ATA      QEMU HARDDISK    1.1. PQ: 0 ANSI: 5
+Oct 15 03:59:22 darkside kernel: [    0.970929] sd 0:0:0:0: [sda] 104857600 512-byte logical blocks: (53.6 GB/50.0 GiB)
+Oct 15 03:59:22 darkside kernel: [    0.970958] sd 0:0:0:0: [sda] Write Protect is off
+Oct 15 03:59:22 darkside kernel: [    0.970960] sd 0:0:0:0: [sda] Mode Sense: 00 3a 00 00
+Oct 15 03:59:22 darkside kernel: [    0.970972] sd 0:0:0:0: [sda] Write cache: disabled, read cache: enabled, doesn't support DPO or FUA
+Oct 15 03:59:22 darkside kernel: [    0.971934]  sda: sda1 sda2 < sda5 >
+Oct 15 03:59:22 darkside kernel: [    0.972183] sd 0:0:0:0: [sda] Attached SCSI disk
+Oct 15 03:59:22 darkside kernel: [    0.973268] sd 0:0:0:0: Attached scsi generic sg0 type 0
+Oct 15 03:59:22 darkside kernel: [    1.123275] PM: Starting manual resume from disk
+Oct 15 03:59:22 darkside kernel: [    1.123277] PM: Hibernation image partition 8:5 present
+Oct 15 03:59:22 darkside kernel: [    1.123278] PM: Looking for hibernation image.
+Oct 15 03:59:22 darkside kernel: [    1.123479] PM: Image not found (code -22)
+Oct 15 03:59:22 darkside kernel: [    1.123481] PM: Hibernation image not present or could not be loaded.
+Oct 15 03:59:22 darkside kernel: [    1.135676] EXT4-fs (sda1): mounted filesystem with ordered data mode. Opts: (null)
+Oct 15 03:59:22 darkside kernel: [    1.204944] usb 1-1: New USB device found, idVendor=0627, idProduct=0001
+Oct 15 03:59:22 darkside kernel: [    1.204949] usb 1-1: New USB device strings: Mfr=1, Product=3, SerialNumber=5
+Oct 15 03:59:22 darkside kernel: [    1.204952] usb 1-1: Product: QEMU USB Tablet
+Oct 15 03:59:22 darkside kernel: [    1.204954] usb 1-1: Manufacturer: QEMU 1.1.2
+Oct 15 03:59:22 darkside kernel: [    1.204957] usb 1-1: SerialNumber: 42
+Oct 15 03:59:22 darkside kernel: [    1.220088] Refined TSC clocksource calibration: 2926.000 MHz.
+Oct 15 03:59:22 darkside kernel: [    2.513622] WARNING! power/level is deprecated; use power/control instead
+Oct 15 03:59:22 darkside kernel: [    2.684438] input: PC Speaker as /devices/platform/pcspkr/input/input1
+Oct 15 03:59:22 darkside kernel: [    2.723011] input: QEMU 1.1.2 QEMU USB Tablet as /devices/pci0000:00/0000:00:01.2/usb1/1-1/1-1:1.0/input/input2
+Oct 15 03:59:22 darkside kernel: [    2.723277] generic-usb 0003:0627:0001.0001: input,hidraw0: USB HID v0.01 Pointer [QEMU 1.1.2 QEMU USB Tablet] on usb-0000:00:01.2-1/input0
+Oct 15 03:59:22 darkside kernel: [    2.723300] usbcore: registered new interface driver usbhid
+Oct 15 03:59:22 darkside kernel: [    2.723302] usbhid: USB HID core driver
+Oct 15 03:59:22 darkside kernel: [    2.762349] piix4_smbus 0000:00:01.3: SMBus Host Controller at 0xb100, revision 0
+Oct 15 03:59:22 darkside kernel: [    2.815127] Error: Driver 'pcspkr' is already registered, aborting...
+Oct 15 03:59:22 darkside kernel: [    2.839828] input: Power Button as /devices/LNXSYSTM:00/LNXPWRBN:00/input/input3
+Oct 15 03:59:22 darkside kernel: [    2.839881] ACPI: Power Button [PWRF]
+Oct 15 03:59:22 darkside kernel: [    3.278791] input: ImExPS/2 Generic Explorer Mouse as /devices/platform/i8042/serio1/input/input4
+Oct 15 03:59:22 darkside kernel: [    4.067829] Adding 1044476k swap on /dev/sda5.  Priority:-1 extents:1 across:1044476k 
+Oct 15 03:59:22 darkside kernel: [    4.083435] EXT4-fs (sda1): re-mounted. Opts: (null)
+Oct 15 03:59:22 darkside kernel: [    4.192326] EXT4-fs (sda1): re-mounted. Opts: errors=remount-ro
+Oct 15 03:59:22 darkside kernel: [    4.286941] loop: module loaded
+Oct 15 03:59:22 darkside kernel: [    4.858230] ADDRCONF(NETDEV_UP): eth0: link is not ready
+Oct 15 03:59:22 darkside kernel: [    5.098633] RPC: Registered named UNIX socket transport module.
+Oct 15 03:59:22 darkside kernel: [    5.098637] RPC: Registered udp transport module.
+Oct 15 03:59:22 darkside kernel: [    5.098639] RPC: Registered tcp transport module.
+Oct 15 03:59:22 darkside kernel: [    5.098641] RPC: Registered tcp NFSv4.1 backchannel transport module.
+Oct 15 03:59:22 darkside kernel: [    5.123283] FS-Cache: Loaded
+Oct 15 03:59:22 darkside kernel: [    5.161487] FS-Cache: Netfs 'nfs' registered for caching
+Oct 15 03:59:22 darkside kernel: [    5.181549] Installing knfsd (copyright (C) 1996 okir@monad.swb.de).
+Oct 15 03:59:23 darkside kernel: [    6.864588] e1000: eth0 NIC Link is Up 1000 Mbps Full Duplex, Flow Control: RX
+Oct 15 03:59:23 darkside kernel: [    6.865343] ADDRCONF(NETDEV_CHANGE): eth0: link becomes ready
+Oct 15 03:59:24 darkside kernel: [    8.497048] postgres (2201): /proc/2201/oom_adj is deprecated, please use /proc/2201/oom_score_adj instead.

@@ -1,0 +1,13 @@
+{
+  "name": "Space Cinema", 
+  "points": 200,
+  "location": "Sun Corona", 
+  "authors": [
+    "dvorak42"
+  ], 
+  "endpoints": [
+    ["file", "service.xmng"],
+    ["file", "service.txt"]
+  ], 
+  "type": ["REV", 200]
+}

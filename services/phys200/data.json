@@ -1,0 +1,13 @@
+{
+  "name": "Jupiter Tamper", 
+  "points": 200,
+  "location": "Jupiter", 
+  "authors": [
+    "dvorak42"
+  ], 
+  "endpoints": [
+    ["physical", "tamperseal"]
+  ], 
+  "type": ["PHYS", 200], 
+  "description": "You had to remove a tamper evident seal without leaving a mark."
+}

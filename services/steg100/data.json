@@ -1,0 +1,12 @@
+{
+  "name": "Awesome Images", 
+  "points": 100,
+  "location": "Mercury", 
+  "authors": [
+    "dvorak42"
+  ], 
+  "endpoints": [
+      ["file", "service.png"]
+  ], 
+  "type": ["STEG", 100]
+}

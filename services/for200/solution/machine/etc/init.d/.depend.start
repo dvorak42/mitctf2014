@@ -1,0 +1,13 @@
+TARGETS = killprocs motd rpcbind nfs-common rsyslog apache2 postgresql atd ssh acpid cron dbus exim4 bootlogs single rmnologin rc.local
+INTERACTIVE = apache2
+apache2: rsyslog
+postgresql: rsyslog
+atd: rsyslog
+ssh: rsyslog
+acpid: rsyslog
+cron: rsyslog
+dbus: rsyslog
+exim4: rsyslog postgresql
+single: killprocs motd bootlogs
+rmnologin: nfs-common rpcbind rsyslog apache2 exim4 postgresql atd motd bootlogs ssh acpid cron dbus
+rc.local: nfs-common rpcbind rsyslog apache2 exim4 postgresql atd motd bootlogs ssh acpid cron dbus

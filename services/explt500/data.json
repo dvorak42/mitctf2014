@@ -1,0 +1,13 @@
+{
+  "name": "Neptune Over The Sea", 
+  "points": 300,
+  "location": "Neptune", 
+  "authors": [
+    "dvorak42"
+  ], 
+  "endpoints": [
+    ["file", "service.ko"],
+    ["neptune:neptune", "REMOTE"]
+  ], 
+  "type": ["EXPLT", 500]
+}

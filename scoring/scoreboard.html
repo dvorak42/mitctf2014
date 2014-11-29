@@ -1,0 +1,40 @@
+<html>
+  <head>
+    <title>MIT Security Training CTF 2014</title>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type="text/javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script type="text/javascript">
+      google.load("visualization", "1", {packages:["corechart"]});
+      google.setOnLoadCallback(createChart);
+
+      function createChart() {
+      var options = {
+        title: 'Final Scoreboard',
+        animation: {
+          duration: 1000,
+          easing: 'in'
+        },
+        legend: {position: 'right', textStyle: {fontSize: 10}},
+      };
+
+      var chart = new google.visualization.LineChart(document.getElementById('chart_div'));
+
+      function updateChart() {
+        var jsonData = $.ajax({
+          url: "scoreboard_data.php",
+          dataType: "json",
+          async: false,
+        }).responseText;
+
+        var data = new google.visualization.DataTable(jsonData);
+        chart.draw(data, options);
+        setTimeout(updateChart, 10000);
+      }
+      updateChart();
+      }
+    </script>
+  </head>
+  <body>
+    <div id="chart_div" style="width: 100%; height: 100%;"></div>
+  </body>
+</html>

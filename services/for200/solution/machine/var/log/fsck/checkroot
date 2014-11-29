@@ -1,0 +1,10 @@
+Log of fsck -C -a -t ext4 /dev/sda1 
+Wed Oct 15 03:59:20 2014
+
+fsck from util-linux 2.20.1
+/dev/sda1: Superblock last write time is in the future.
+	(by less than a day, probably due to the hardware clock being incorrectly set).  FIXED.
+/dev/sda1: clean, 35100/3217536 files, 427662/12845056 blocks
+
+Wed Oct 15 03:59:20 2014
+----------------

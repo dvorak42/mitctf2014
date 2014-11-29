@@ -1,0 +1,13 @@
+{
+  "name": "Lost in Centauri", 
+  "points": 200,
+  "location": "Alpha Centauri", 
+  "authors": [
+    "dvorak42"
+  ], 
+  "endpoints": [
+    ["physical", "path"]
+  ], 
+  "type": ["PHYS", 500],
+  "description": "There were 4 papers with the flag hidden around the building. You had to overlap the pages to get the flag."
+}

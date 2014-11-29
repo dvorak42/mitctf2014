@@ -1,0 +1,12 @@
+{
+  "name": "Esoteric Dumps", 
+  "points": 300,
+  "location": "Saturn", 
+  "authors": [
+    "dvorak42"
+  ], 
+  "endpoints": [
+    ["file", "service.log"]
+  ], 
+  "type": ["REV", 300]
+}

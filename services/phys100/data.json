@@ -1,0 +1,13 @@
+{
+  "name": "Combo Breaker", 
+  "points": 200,
+  "location": "Earth Satellite", 
+  "authors": [
+    "dvorak42"
+  ], 
+  "endpoints": [
+    ["physical", "combolock"]
+  ], 
+  "type": ["PHYS", 100], 
+  "description": "You had to open a master combo lock."
+}

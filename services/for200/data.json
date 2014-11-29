@@ -1,0 +1,12 @@
+{
+  "name": "Exposed to Attackers",
+  "points": 200,
+  "location": "Dark Side of the Moon", 
+  "authors": [
+    "dvorak42"
+  ], 
+  "endpoints": [
+    ["file", "service.zip"]
+  ], 
+  "type": ["FOR", 200]
+}

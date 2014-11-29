@@ -1,0 +1,167 @@
+\documentclass[10pt]{article}
+\usepackage[margin=1.25in]{geometry}
+\usepackage{graphicx,ctable,booktabs}
+\usepackage{fancyhdr}
+\usepackage{lscape}
+\usepackage{multirow}
+\pagestyle{fancy}
+\setcounter{page}{0}
+\lhead{MIT Security Training CTF 2014} \rhead{\thepage}
+\lfoot{TEAMNAME}
+\renewcommand{\footrulewidth}{.3pt}
+\setlength\voffset{-0.25in}
+\setlength\textheight{648pt}
+
+
+\begin{document}
+\begin{landscape}
+\thispagestyle{empty}
+\vspace*{\fill}
+\begingroup
+\centering
+\begin{center}
+{\bf\Huge TEAMNAME}
+\end{center}
+\endgroup
+\vspace*{\fill}
+\end{landscape}
+\newpage
+\begin{center}
+\section*{Briefing}
+\end{center}
+You've been recruited to help recover the Tesseract, a cache of scientific data
+left behind by John Smith, the founder of a small scientific thinktank doing
+research into all kinds of strange areas of science. Since his demise, the
+world's governments and various private institutions have been working to gain
+access to the vault containing the Tesseract, however until now no-one has had
+any luck discovering the password that allows access to the vault. Rumors have
+recently begun circulating from those who were close to John Smith, that the
+answer lies in the various scientific outposts and probes that John Smith sent
+out to the wider solar system and into the Earth's crust over the course of his
+life.
+
+These documents contains all the information we have on each of the 25 sites
+that we believe contain information that is vital to unlock the secret of the
+Tesseract. The information you are looking for will be of the form
+{\tt tesseract2014\{FLAG\}}. As you discover this information, you'll be able to
+turn it in to the data terminal we've recovered to verify the validity of the
+information. Different sites are worth different amounts. (Only the FLAG, and
+not the surrounding {\tt tesseract2014\{\}}) Unfortunately, you are not alone in
+this quest and there are other groups that are chasing down these leads and
+trying to gain control of the vault. Hopefully you'll be able to discover the
+secrets that are contained in these sites, and open the vault containing the
+Tesseract before others do.
+
+Only the top 8 teams will have the opportunity to provide the 9 symbol code that
+could potentially open the Tesseract Vault. Placement is determined by the
+number of points you've gained, and then determined by earliest final submission
+in case of ties. The top team will receive a \$500 finder's fee, while the
+second place team will receive a \$250 better luck next time award. Whoever
+delivers the secret of the Tesseract will also receive a \$250 recognition
+award.
+
+Additionally, there are a number of academics and hobbyists who are also looking
+into these sites, and trying to discover their secrets. They are livestreaming
+their discoveries and methodologies, and we will try broadcasting whenever they
+release a new presentation on one of the sites. One of our representatives will
+occasionally come around to see which sites we should steer the academics and
+hobbyists towards researching and releasing details on.
+
+The information you need to verify pieces of information and to access our
+secure uplink is:
+\vspace{0.2in}
+{\tt\large
+\begin{center}
+\begin{tabular}{| r | l |}
+\hline
+Team Name & TEAMNAME\\\hline
+Team Email & TEAMEMAIL\\\hline
+Username & USERNAME\\\hline
+Password & PASSWORD\\\hline
+Neptune Uplink Username & NEPTUNEUSER\\\hline
+Neptune Uplink Password & NEPTUNEPASS\\\hline
+Starting Point & http://ctf.mit.edu\\\hline
+IRC Channel & \#mitctf on irc.freenode.net\\\hline
+\end{tabular}
+\end{center}
+}
+
+{\tt TL;DR:}
+\begin{itemize}
+\item There are a total of 25 sites/services with flags of the form {\tt
+    tesseract2014\{FLAG\}}.
+\item You may submit flags at the terminal using your login. Don't include {\tt
+    tesseract2014\{\}}.
+\item Each service has a point value. Placement is determined by score, and then
+  by time.
+\item The top 8 teams will have a chance to submit the ``Final Code''.
+\item \$500 for 1st, \$250 for 2nd, \$250 for solving the ``Final Code''.
+\item Every 90 minutes or so, the organizers will go through solving a
+  challenge and announce the next challenge to be deconstructed. The flag can
+  then be submitted for points.
+\item The organizers will ask all the teams about which particular challenges
+  they'd like to see solved.
+\end{itemize}
+\newpage
+\input{services/rev400.tex}\newpage
+\input{services/explt100.tex}\newpage
+\input{services/steg100.tex}\newpage
+\input{services/explt400.tex}\newpage
+\input{services/phys100.tex}\newpage
+\input{services/explt300.tex}\newpage
+\input{services/recon100.tex}\newpage
+\input{services/rev300.tex}\newpage
+\input{services/for200.tex}\newpage
+\input{services/phys200.tex}\newpage
+\input{services/for100.tex}\newpage
+\input{services/phys500.tex}\newpage
+\input{services/explt500.tex}\newpage
+\input{services/crypt100.tex}\newpage
+\input{services/phys300.tex}\newpage
+\input{services/web200.tex}\newpage
+\input{services/crypt300.tex}\newpage
+\input{services/explt200.tex}\newpage
+\input{services/crypt200.tex}\newpage
+\input{services/misc100.tex}\newpage
+\input{services/for300.tex}\newpage
+\input{services/rev200.tex}\newpage
+\input{services/web100.tex}\newpage
+\input{services/rev100.tex}\newpage
+\input{services/phys400.tex}\newpage
+\input{services/bonus100.tex}\newpage
+\input{services/bonus200.tex}\newpage
+\input{services/bonus300.tex}\newpage
+
+\begin{center}
+\section*{Site Flags}
+\begin{tabular}{| c | c |}
+\hline
+\multirow{2}{*}{\bf\Large Site} & \hspace*{1.6in}\multirow{2}{*}{\bf\Large Flag}\hspace*{1.6in}\\&\\\hline
+\multirow{2}{*}{{\tt Ancient Functions}} &\\&\\\hline
+\multirow{2}{*}{{\tt Asteroid Mining}} &\\&\\\hline
+\multirow{2}{*}{{\tt Awesome Images}} &\\&\\\hline
+\multirow{2}{*}{{\tt Beaten to Mars}} &\\&\\\hline
+\multirow{2}{*}{{\tt Combo Breaker}} &\\&\\\hline
+\multirow{2}{*}{{\tt Distant Communications}} &\\&\\\hline
+\multirow{2}{*}{{\tt Eldritch Scientist}} &\\&\\\hline
+\multirow{2}{*}{{\tt Esoteric Dumps}} &\\&\\\hline
+\multirow{2}{*}{{\tt Exposed to Attackers}} &\\&\\\hline
+\multirow{2}{*}{{\tt Jupiter Tamper}} &\\&\\\hline
+\multirow{2}{*}{{\tt Listening In}} &\\&\\\hline
+\multirow{2}{*}{{\tt Lost in Centauri}} &\\&\\\hline
+\multirow{2}{*}{{\tt Neptune Over The Sea}} &\\&\\\hline
+\multirow{2}{*}{{\tt One Pad To Rule Them All}} &\\&\\\hline
+\multirow{2}{*}{{\tt Pinned to the Table}} &\\&\\\hline
+\multirow{2}{*}{{\tt Pluto Squares}} &\\&\\\hline
+\multirow{2}{*}{{\tt Pretty Global Privacy}} &\\&\\\hline
+\multirow{2}{*}{{\tt Remotely Executable Probes}} &\\&\\\hline
+\multirow{2}{*}{{\tt Rolling Keys}} &\\&\\\hline
+\multirow{2}{*}{{\tt Secretly Constrained}} &\\&\\\hline
+\multirow{2}{*}{{\tt Sedna Caught}} &\\&\\\hline
+\multirow{2}{*}{{\tt Space Cinema}} &\\&\\\hline
+\multirow{2}{*}{{\tt Space Contacts}} &\\&\\\hline
+\multirow{2}{*}{{\tt Star Noise}} &\\&\\\hline
+\multirow{2}{*}{{\tt Stuck in Space}} &\\&\\\hline
+\end{tabular}
+\end{center}
+\end{document}

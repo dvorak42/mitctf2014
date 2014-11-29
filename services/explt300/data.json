@@ -1,0 +1,13 @@
+{
+  "name": "Distant Communications", 
+  "points": 200,
+  "location": "Outer Oort Cloud", 
+  "authors": [
+    "dvorak42"
+  ], 
+  "endpoints": [
+    ["REMOTE", 9696],
+    ["file", "service"]
+  ], 
+  "type": ["EXPLT", 300]
+}

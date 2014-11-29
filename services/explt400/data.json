@@ -1,0 +1,12 @@
+{
+  "name": "Beaten to Mars",
+  "points": 300,
+  "location": "Mars", 
+  "authors": [
+    "ccp0101"
+  ], 
+  "endpoints": [
+    ["REMOTE", 4433]
+  ], 
+  "type": ["EXPLT", 400]
+}

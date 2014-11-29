@@ -1,0 +1,12 @@
+{
+  "name": "Eldritch Scientist",
+  "points": 100,
+  "location": "Orbiting Sun", 
+  "authors": [
+    "dvorak42"
+  ], 
+  "endpoints": [
+    ["file", "service.png"]
+  ], 
+  "type": ["RECON", 100]
+}

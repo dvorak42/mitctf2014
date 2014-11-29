@@ -1,0 +1,18 @@
+# This file describes the network interfaces available on your system
+# and how to activate them. For more information, see interfaces(5).
+
+# The loopback network interface
+auto lo
+iface lo inet loopback
+
+# The primary network interface
+allow-hotplug eth0
+iface eth0 inet static
+	address 18.181.8.15
+	netmask 255.255.0.0
+	network 18.181.0.0
+	broadcast 18.181.255.255
+	gateway 18.181.0.1
+	# dns-* options are implemented by the resolvconf package, if installed
+	dns-nameservers 18.70.0.160 18.71.0.151 18.72.0.3
+	dns-search mit.edu

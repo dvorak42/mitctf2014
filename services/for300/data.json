@@ -1,0 +1,12 @@
+{
+  "name": "Sedna Caught",
+  "points": 300,
+  "location": "Sedna", 
+  "authors": [
+    "tboning"
+  ], 
+  "endpoints": [
+    ["file", "service.pcap"]
+  ], 
+  "type": ["FOR", 300]
+}

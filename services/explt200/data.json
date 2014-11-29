@@ -1,0 +1,12 @@
+{
+  "name": "Remotely Executable Probes", 
+  "points": 200,
+  "location": "Venus", 
+  "authors": [
+    "dvorak42"
+  ], 
+  "endpoints": [
+    ["REMOTE", 4320]
+  ], 
+  "type": ["EXPLT", 200]
+}
